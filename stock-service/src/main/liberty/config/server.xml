@@ -1,0 +1,52 @@
+<server description="Sample Liberty server">
+
+  <featureManager>
+    <feature>jaxrs-2.1</feature>
+    <feature>jsonp-1.1</feature>
+    <feature>cdi-2.0</feature>
+    <feature>mpConfig-1.4</feature>
+    <!-- tag::mpRestClient[] -->
+    <feature>mpRestClient-1.4</feature>
+    <!-- end::mpRestClient[] -->
+    <feature>jpa-2.2</feature>
+  </featureManager>
+
+  <variable name="default.http.port" defaultValue="9081"/>
+  <variable name="default.https.port" defaultValue="9443"/>
+
+  <cors domain="/"
+        allowedOrigins="*"
+        allowedMethods="GET, DELETE, POST, PUT"
+        allowedHeaders="origin, content-type, accept, authorization, cache-control"
+        allowCredentials="true"
+        maxAge="3600" />
+
+  <httpEndpoint host="*" httpPort="${default.http.port}" httpsPort="${default.https.port}"
+                id="defaultHttpEndpoint"/>
+
+  <library id="postgresql-library">
+    <file name="${server.config.dir}/postgresql-42.2.14.jar"/>
+  </library>
+
+  <dataSource id="product_stock_db"
+              jndiName="jdbc/productstock"
+              jdbcDriverRef="postgresql-driver"
+              type="javax.sql.ConnectionPoolDataSource"
+              transactional="true">
+
+    <properties.postgresql serverName="localhost"
+                           portNumber="5433"
+                           databaseName="postgres"
+                           user="postgres"
+                           password="postgres"/>
+  </dataSource>
+
+  <jdbcDriver id="postgresql-driver"
+              javax.sql.XADataSource="org.postgresql.xa.PGXADataSource"
+              javax.sql.ConnectionPoolDataSource="org.postgresql.ds.PGConnectionPoolDataSource"
+              libraryRef="postgresql-library"/>
+
+  <webApplication location="productstock.war" contextRoot="/"/>
+  <applicationManager autoExpand="true" />
+
+</server>
