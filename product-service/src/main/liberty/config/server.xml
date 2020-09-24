@@ -1,0 +1,62 @@
+<server description="Product Service Server">
+
+  <featureManager>
+    <feature>jaxrs-2.1</feature>
+    <feature>jsonp-1.1</feature>
+    <feature>cdi-2.0</feature>
+    <feature>mpConfig-1.4</feature>
+    <!-- tag::mpRestClient[] -->
+    <feature>mpRestClient-1.4</feature>
+    <feature>mpJwt-1.1</feature>
+    <feature>jpa-2.2</feature>
+
+    <feature>transportSecurity-1.0</feature>
+    <feature>appSecurity-3.0</feature>
+  </featureManager>
+
+  <cors domain="/"
+        allowedOrigins="*"
+        allowedMethods="GET, DELETE, POST, PUT"
+        allowedHeaders="origin, content-type, accept, authorization, cache-control"
+        allowCredentials="true"
+        maxAge="3600" />
+
+  <keyStore id="defaultKeyStore" password="secret" />
+
+
+  <!-- configure mpjwt feature to trust jwts from oidc client
+  <mpJwt id="mympjwt" issuer="https://example.com"
+         jwksUri="https://localhost:9090/inventory/jwt"/>-->
+
+  <variable name="default.http.port" defaultValue="9081"/>
+  <variable name="default.https.port" defaultValue="9443"/>
+  
+  <httpEndpoint host="*" httpPort="${default.http.port}" httpsPort="${default.https.port}"
+                id="defaultHttpEndpoint"/>
+
+  <library id="postgresql-library">
+    <file name="${server.config.dir}/postgresql-42.2.14.jar"/>
+  </library>
+
+  <dataSource id="product_db"
+              jndiName="jdbc/product"
+              jdbcDriverRef="postgresql-driver"
+              type="javax.sql.ConnectionPoolDataSource"
+              transactional="true">
+
+    <properties.postgresql serverName="localhost"
+                           portNumber="5432"
+                           databaseName="postgres"
+                           user="postgres"
+                           password="postgres"/>
+  </dataSource>
+
+  <jdbcDriver id="postgresql-driver"
+              javax.sql.XADataSource="org.postgresql.xa.PGXADataSource"
+              javax.sql.ConnectionPoolDataSource="org.postgresql.ds.PGConnectionPoolDataSource"
+              libraryRef="postgresql-library"/>
+
+  <webApplication location="product.war" contextRoot="/"/>
+  <applicationManager autoExpand="true" />
+
+</server>
