@@ -1,0 +1,51 @@
+<!-- Section -->
+<div class="section">
+  <!-- container -->
+  <div class="container">
+    <!-- row -->
+    <div class="row">
+
+      <div class="col-md-12">
+        <div class="section-title text-center">
+          <h3 class="title">
+            {{product.titel}}        
+          </h3>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-xs-6" >
+        <div class="product" *ngFor="let item of product.data; index as i" >
+          <div *ngFor="let rolle of item.rolle">
+           <div *ngIf="this.authRole == rolle">        
+            <a routerLink="{{item.link}}">
+                <div class="h1">
+                  <svg class="product-img" viewBox="0 0 48 48" version="1.1"
+                      xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      [attr.d]="item.icon"
+                      stroke="currentColor" stroke-width="1" fill="none" fill-rule="evenodd"/>
+                  </svg>
+                </div>
+                <div class="product-body">
+                  <p class="product-category">{{item.titel}}</p>
+                  <h3 class="product-name"><a href="#">{{item.name}}</a></h3>
+                  <h4 class="product-price">{{item.price}}</h4>
+                  <div class="product-rating">
+                  </div>
+                  <div class="product-btns">
+                    <button class="quick-view"><i class="fa fa-eye"></i><span class="tooltipp">Details</span></button>
+                  </div>
+                </div>
+            </a>
+          </div> 
+         </div>
+        </div>
+      </div>
+
+    </div>
+    <!-- /row -->
+  </div>
+  <!-- /container -->
+</div>
+<!-- /Section -->
+
