@@ -21,10 +21,12 @@ export class ProductService {
     });
   }
 
+  // tslint:disable-next-line:ban-types
   getSingleProduct(id: Number): Observable<ProductModelServer> {
     return this.http.get<ProductModelServer>(this.url + 'products/' + id);
   }
 
+  // tslint:disable-next-line:ban-types
   getProductsFromCategory(catName: String): Observable<ProductModelServer[]> {
     return this.http.get<ProductModelServer[]>(this.url + 'products/category/' + catName);
   }

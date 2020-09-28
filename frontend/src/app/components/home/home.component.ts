@@ -15,8 +15,8 @@ import { CategoryData } from 'src/assets/data/category';
 export class HomeComponent implements OnInit {
   products: ProductModelServer[] = [];
 
-  constructor(private categorys: CategoryData,
-    private productService: ProductService,
+  constructor(public categorys: CategoryData,
+              private productService: ProductService,
               private cartService: CartService,
               private router:Router) {
   }

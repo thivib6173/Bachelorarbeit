@@ -1,11 +1,11 @@
 export interface ProductModelServer {
-  id: Number;
+  id: number;
   name: String;
   category: String;
   description: String;
   image: String;
-  price: Number;
-  quantity: Number;
+  price: number;
+  quantity: number;
   images: String;
 }
 

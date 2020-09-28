@@ -257,10 +257,10 @@ false Antarctica/Davis
 false Antarctica/DumontDUrville
 false Antarctica/Macquarie
 false Antarctica/Mawson
-false Antarctica/McMurdo
+true Antarctica/McMurdo
 false Antarctica/Palmer
 false Antarctica/Rothera
-false Antarctica/South_Pole
+true Antarctica/South_Pole
 false Antarctica/Syowa
 true Antarctica/Troll
 false Antarctica/Vostok
@@ -649,8 +649,8 @@ false NOVT
 false NPT
 false NST
 false NUT
-false NZ
-false NZ-CHAT
+true NZ
+true NZ-CHAT
 true NZDT
 false NZST
 false NZT
@@ -675,10 +675,10 @@ true PST8PDT
 false PWT
 true PYST
 false PYT
-false Pacific/Apia
-false Pacific/Auckland
+true Pacific/Apia
+true Pacific/Auckland
 false Pacific/Bougainville
-false Pacific/Chatham
+true Pacific/Chatham
 false Pacific/Chuuk
 true Pacific/Easter
 false Pacific/Efate
@@ -1024,10 +1024,10 @@ false posix/Antarctica/Davis
 false posix/Antarctica/DumontDUrville
 false posix/Antarctica/Macquarie
 false posix/Antarctica/Mawson
-false posix/Antarctica/McMurdo
+true posix/Antarctica/McMurdo
 false posix/Antarctica/Palmer
 false posix/Antarctica/Rothera
-false posix/Antarctica/South_Pole
+true posix/Antarctica/South_Pole
 false posix/Antarctica/Syowa
 true posix/Antarctica/Troll
 false posix/Antarctica/Vostok
@@ -1320,15 +1320,15 @@ true posix/MST7MDT
 true posix/Mexico/BajaNorte
 true posix/Mexico/BajaSur
 true posix/Mexico/General
-false posix/NZ
-false posix/NZ-CHAT
+true posix/NZ
+true posix/NZ-CHAT
 true posix/Navajo
 false posix/PRC
 true posix/PST8PDT
-false posix/Pacific/Apia
-false posix/Pacific/Auckland
+true posix/Pacific/Apia
+true posix/Pacific/Auckland
 false posix/Pacific/Bougainville
-false posix/Pacific/Chatham
+true posix/Pacific/Chatham
 false posix/Pacific/Chuuk
 true posix/Pacific/Easter
 false posix/Pacific/Efate
@@ -1408,14 +1408,16 @@ true posix/WET
 false posix/Zulu
 true posixrules
 </TimeZones>
-      <StartupTime>1600944634</StartupTime>
+      <StartupTime>1601273948</StartupTime>
     </root>
     <database id="2" parent="1" name="postgres">
       <ObjectId>13408</ObjectId>
       <Comment>default administrative connection database</Comment>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>531</IntrospectionStateNumber>
+      <IntrospectionStateNumber>554</IntrospectionStateNumber>
       <Current>1</Current>
+      <Relations>sequence|table|16404|16406|1
+</Relations>
     </database>
     <role id="3" parent="1" name="pg_execute_server_program">
       <ObjectId>4571</ObjectId>
@@ -1466,7 +1468,7 @@ true posixrules
       <Comment>standard public schema</Comment>
       <StateNumber>276</StateNumber>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>532</IntrospectionStateNumber>
+      <IntrospectionStateNumber>555</IntrospectionStateNumber>
       <Current>1</Current>
     </schema>
     <access-method id="15" parent="2" name="heap">
@@ -1550,50 +1552,117 @@ true posixrules
       <StateNumber>495</StateNumber>
       <DataType>bigint|0s</DataType>
     </sequence>
-    <table id="29" parent="14" name="product">
+    <sequence id="29" parent="14" name="images_id_seq">
+      <ObjectId>16404</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>550</StateNumber>
+      <SequenceIdentity>null..100</SequenceIdentity>
+      <CacheSize>10</CacheSize>
+      <DataType>integer|0s</DataType>
+    </sequence>
+    <table id="30" parent="14" name="images">
+      <ObjectId>16406</ObjectId>
+      <Comment>Bilder für Produkte</Comment>
+      <Owner>postgres</Owner>
+      <StateNumber>542</StateNumber>
+    </table>
+    <table id="31" parent="14" name="product">
       <ObjectId>16384</ObjectId>
       <Owner>postgres</Owner>
-      <StateNumber>526</StateNumber>
+      <StateNumber>536</StateNumber>
     </table>
-    <column id="30" parent="29" name="id">
+    <column id="32" parent="30" name="id">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>536</StateNumber>
+      <DefaultExpression>nextval(&apos;images_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="33" parent="30" name="productId">
+      <Position>2</Position>
+      <DataType>integer|0s</DataType>
+      <StateNumber>536</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="34" parent="30" name="name">
+      <Position>3</Position>
+      <DataType>text|0s</DataType>
+      <StateNumber>536</StateNumber>
+      <TypeId>25</TypeId>
+    </column>
+    <column id="35" parent="30" name="file">
+      <Position>4</Position>
+      <DataType>bytea|0s</DataType>
+      <StateNumber>536</StateNumber>
+      <TypeId>17</TypeId>
+    </column>
+    <column id="36" parent="30" name="content">
+      <Position>5</Position>
+      <DataType>text|0s</DataType>
+      <StateNumber>542</StateNumber>
+      <TypeId>25</TypeId>
+    </column>
+    <index id="37" parent="30" name="images_pk">
+      <ObjectId>16413</ObjectId>
+      <StateNumber>536</StateNumber>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+    </index>
+    <key id="38" parent="30" name="images_pk">
+      <ObjectId>16414</ObjectId>
+      <StateNumber>536</StateNumber>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>images_pk</UnderlyingIndexName>
+    </key>
+    <column id="39" parent="31" name="id">
       <Position>1</Position>
       <DataType>integer|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>489</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <column id="31" parent="29" name="name">
+    <column id="40" parent="31" name="name">
       <Position>2</Position>
       <DataType>text|0s</DataType>
       <StateNumber>489</StateNumber>
       <TypeId>25</TypeId>
     </column>
-    <column id="32" parent="29" name="description">
+    <column id="41" parent="31" name="description">
       <Position>3</Position>
       <DataType>text|0s</DataType>
       <StateNumber>489</StateNumber>
       <TypeId>25</TypeId>
     </column>
-    <column id="33" parent="29" name="image">
+    <column id="42" parent="31" name="image">
       <Position>4</Position>
       <DataType>text|0s</DataType>
       <StateNumber>518</StateNumber>
       <TypeId>25</TypeId>
     </column>
-    <column id="34" parent="29" name="category">
+    <column id="43" parent="31" name="category">
       <Position>5</Position>
       <DataType>text|0s</DataType>
       <StateNumber>526</StateNumber>
       <TypeId>25</TypeId>
     </column>
-    <index id="35" parent="29" name="product_pk">
+    <column id="44" parent="31" name="price">
+      <Position>6</Position>
+      <DataType>real|0s</DataType>
+      <StateNumber>533</StateNumber>
+      <DefaultExpression>0</DefaultExpression>
+      <TypeId>700</TypeId>
+    </column>
+    <index id="45" parent="31" name="product_pk">
       <ObjectId>16390</ObjectId>
       <StateNumber>526</StateNumber>
       <ColNames>id</ColNames>
       <Unique>1</Unique>
       <Primary>1</Primary>
     </index>
-    <key id="36" parent="29" name="product_pk">
+    <key id="46" parent="31" name="product_pk">
       <ObjectId>16391</ObjectId>
       <StateNumber>489</StateNumber>
       <ColNames>id</ColNames>

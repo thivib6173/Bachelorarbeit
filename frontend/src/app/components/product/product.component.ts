@@ -1,10 +1,10 @@
 import {AfterViewInit, Component, OnInit, ViewChild} from '@angular/core';
-import {ActivatedRoute, ParamMap} from "@angular/router";
-import {ProductService} from "../../services/product.service";
-import {ProductModelServer} from "../../models/product.model";
-import {map} from "rxjs/operators";
-import {CartService} from "../../services/cart.service";
-import { timingSafeEqual } from 'crypto';
+import {ActivatedRoute, ParamMap} from '@angular/router';
+import {ProductService} from '../../services/product.service';
+import {ProductModelServer} from '../../models/product.model';
+import {map} from 'rxjs/operators';
+import {CartService} from '../../services/cart.service';
+
 
 
 declare let $: any;
@@ -16,22 +16,26 @@ declare let $: any;
 })
 export class ProductComponent implements AfterViewInit, OnInit {
 
-  id: Number;
-  product;
-  thumbimages: any[] = [];
-  
-
-  @ViewChild('quantity') quantityInput;
-
   constructor(private route: ActivatedRoute,
               private productService: ProductService,
               private cartService: CartService) {
 
 
   }
+  authRole: any;
+  id: number;
+  product;
+  thumbimages: any[] = [];
+
+
+  @ViewChild('quantity') quantityInput;
+
+    ngAfterViewInit(): void {
+        throw new Error('Method not implemented.');
+    }
 
   ngOnInit(): void {
-   console.log(this.route.url)
+   console.log(this.route.url);
   }
 
 

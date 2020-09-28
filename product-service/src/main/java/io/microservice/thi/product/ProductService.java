@@ -93,10 +93,9 @@ public class ProductService {
     @GET
     @Produces(MediaType.APPLICATION_JSON)
     @Transactional
-    @RolesAllowed("admin")
     public JsonArray getProducts() {
-        System.out.println("Name JWT: " + principal.getName());
-        System.out.println("Admin" + jsonWebToken.getClaim( "adminstrator_level").toString());
+        //System.out.println("Name JWT: " + principal.getName());
+        //System.out.println("Admin" + jsonWebToken.getClaim( "adminstrator_level").toString());
 
 
 

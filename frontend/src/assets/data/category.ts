@@ -1,6 +1,6 @@
 export class CategoryData {
-    
-    private data =  [{
+
+    data =  [{
         "titel": "Notebook",
         "category": "notebook",
         "rolle": [
@@ -33,4 +33,4 @@ export class CategoryData {
         "icon": "/assets/img/apple-iphone-xr-weiss-vorne.png"
         }]
   }
- 
+
