@@ -29,27 +29,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8cc20f78-d8df-4ccc-88e2-5f095f23bf34" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/main/liberty/config/keycloack.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/main/webapp/META-INF/productservice-public-key.pem" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/main/webapp/WEB-INF/beans.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/product_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/product_war.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/product_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/product_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f09980b0-eb87-48b9-b83f-ed07883b6460.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f09980b0-eb87-48b9-b83f-ed07883b6460.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f09980b0-eb87-48b9-b83f-ed07883b6460/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f09980b0-eb87-48b9-b83f-ed07883b6460/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/product.iml" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/product.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/src/main/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/resources/META-INF/persistance.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/io/microservice/thi/product/ProductApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/io/microservice/thi/product/ProductApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/io/microservice/thi/product/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/io/microservice/thi/product/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/src/main/liberty/config/server.xml" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/liberty/config/server.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/src/main/resources/META-INF/microprofile-config.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/src/main/resources/META-INF/persistence.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/src/main/resources/META-INF/publicKey.pem" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/src/main/webapp/META-INF/microprofile-config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/webapp/META-INF/microprofile-config.properties" afterDir="false" />
-    </list>
+    <list default="true" id="8cc20f78-d8df-4ccc-88e2-5f095f23bf34" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -183,7 +163,7 @@
       <workItem from="1601394871190" duration="83000" />
       <workItem from="1601395047745" duration="2000" />
       <workItem from="1601400932288" duration="4638000" />
-      <workItem from="1601406404158" duration="3956000" />
+      <workItem from="1601406404158" duration="4268000" />
     </task>
     <servers />
   </component>
