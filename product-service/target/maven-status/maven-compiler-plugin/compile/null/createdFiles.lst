@@ -1,0 +1,8 @@
+io\microservice\thi\product\DAO\ImageDAO.class
+io\microservice\thi\product\model\Image.class
+io\microservice\thi\product\DAO\UserTransaction.class
+io\microservice\thi\product\model\Product.class
+io\microservice\thi\product\DAO\ProductDAO.class
+io\microservice\thi\product\ProductApplication.class
+io\microservice\thi\product\ProductService.class
+io\microservice\thi\product\ImageService.class

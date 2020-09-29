@@ -1,0 +1,14 @@
+
+ Index  Count  Time of first Occurrence    Time of last Occurrence     Exception SourceId ProbeId
+------+------+---------------------------+---------------------------+---------------------------
+     0      3 29.09.20, 21:59:42:346 MESZ 29.09.20, 22:02:43:844 MESZ java.lang.NullPointerException com.ibm.ws.uow.UOWManagerImpl.runUnderCurrentUOW 1130
+                                                                            - C:\Users\vib61\Documents\Bachelorarbeit\product-service\target\liberty\wlp\usr\servers\defaultServer\logs\ffdc\ffdc_20.09.29_21.59.42.0.log
+     1      3 29.09.20, 21:59:42:395 MESZ 29.09.20, 22:02:43:848 MESZ java.lang.NullPointerException com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters 1105
+                                                                            - C:\Users\vib61\Documents\Bachelorarbeit\product-service\target\liberty\wlp\usr\servers\defaultServer\logs\ffdc\ffdc_20.09.29_21.59.42.1.log
+     2      2 29.09.20, 22:02:15:592 MESZ 29.09.20, 22:02:43:843 MESZ com.ibm.wsspi.injectionengine.InjectionException com.ibm.ws.cdi.impl.weld.injection.WebSphereInjectionServicesImpl 199
+                                                                            - C:\Users\vib61\Documents\Bachelorarbeit\product-service\target\liberty\wlp\usr\servers\defaultServer\logs\ffdc\ffdc_20.09.29_22.02.15.0.log
+     3      2 29.09.20, 22:02:15:653 MESZ 29.09.20, 22:02:43:843 MESZ com.ibm.wsspi.injectionengine.InjectionException com.ibm.ws.cdi.impl.weld.injection.WebSphereInjectionServicesImpl.inject 248
+                                                                            - C:\Users\vib61\Documents\Bachelorarbeit\product-service\target\liberty\wlp\usr\servers\defaultServer\logs\ffdc\ffdc_20.09.29_22.02.15.1.log
+     4      2 29.09.20, 22:02:15:679 MESZ 29.09.20, 22:02:43:843 MESZ java.security.PrivilegedActionException com.ibm.ws.cdi.impl.weld.injection.WebSphereInjectionServicesImpl 116
+                                                                            - C:\Users\vib61\Documents\Bachelorarbeit\product-service\target\liberty\wlp\usr\servers\defaultServer\logs\ffdc\ffdc_20.09.29_22.02.15.2.log
+------+------+---------------------------+---------------------------+---------------------------

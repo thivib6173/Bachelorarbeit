@@ -1,0 +1,819 @@
+********************************************************************************
+product = Open Liberty 20.0.0.10 (wlp-1.0.45.cl201020200915-1100)
+wlp.install.dir = C:/Users/vib61/Documents/Bachelorarbeit/product-service/target/liberty/wlp/
+java.home = C:\Users\vib61\.jdks\openjdk-14.0.2
+java.version = 14.0.2
+java.runtime = OpenJDK Runtime Environment (14.0.2+12-46)
+os = Windows 10 (10.0; amd64) (de_DE)
+process = 10044@DESKTOP-AH9LM01
+********************************************************************************
+[29.09.20, 22:04:33:287 MESZ] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0001I: Der Server defaultServer wurde gestartet.
+[29.09.20, 22:04:33:819 MESZ] 0000001a com.ibm.ws.config.xml.internal.ServerXMLConfiguration        A CWWKG0093A: Konfigurations-Drop-in-Ressource wird verarbeitet: C:\Users\vib61\Documents\Bachelorarbeit\product-service\target\liberty\wlp\usr\servers\defaultServer\configDropins\overrides\liberty-plugin-variable-config.xml
+[29.09.20, 22:04:34:082 MESZ] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           I CWWKE0002I: Der Kernel wurde nach  1,039 Sekunden gestartet.
+[29.09.20, 22:04:34:139 MESZ] 00000025 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0007I: Die Featureaktualisierung wurde gestartet.
+[29.09.20, 22:04:35:139 MESZ] 0000001c .apache.cxf.cxf.core.3.2:1.0.45.cl201020200915-1100(id=207)] I Aries Blueprint packages not available. So namespaces will not be registered
+[29.09.20, 22:04:35:140 MESZ] 0000001d .apache.cxf.cxf.core.3.2:1.0.45.cl201020200915-1100(id=207)] I Aries Blueprint packages not available. So namespaces will not be registered
+[29.09.20, 22:04:35:177 MESZ] 00000019 com.ibm.ws.security.ready.internal.SecurityReadyServiceImpl  I CWWKS0007I: Der Sicherheitsservice wird gestartet...
+[29.09.20, 22:04:35:318 MESZ] 0000001d com.ibm.ws.app.manager.internal.monitor.DropinMonitor        A CWWKZ0058I: dropins auf Anwendungen überwachen.
+[29.09.20, 22:04:35:448 MESZ] 0000001a com.ibm.ws.cache.ServerCache                                 I DYNA1001I: Die Instanz von WebSphere Dynamic Cache mit dem Namen baseCache wurde ordnungsgemäß initialisiert.
+[29.09.20, 22:04:35:450 MESZ] 0000001a com.ibm.ws.cache.ServerCache                                 I DYNA1071I: Der Cacheprovider default wird verwendet.
+[29.09.20, 22:04:35:451 MESZ] 0000001a com.ibm.ws.cache.CacheServiceImpl                            I DYNA1056I: Dynamic Cache (Objektcache) wurde erfolgreich initialisiert.
+[29.09.20, 22:04:35:667 MESZ] 00000021 com.ibm.ws.ssl.config.WSKeyStore                             I CWPKI0819I: Der Standard-Keystore konnte nicht erstellt werden, weil kein Kennwort im Element <keyStore id="defaultKeyStore"/> konfiguriert wurde und die Umgebungsvariable 'keystore_password' nicht gesetzt ist.
+[29.09.20, 22:04:35:695 MESZ] 0000002f com.ibm.ws.security.token.ltpa.internal.LTPAKeyCreateTask    I CWWKS4105I: Die LTPA-Konfiguration ist nach 0,009 Sekunden bereit.
+[29.09.20, 22:04:35:703 MESZ] 00000019 ibm.ws.security.authentication.internal.jaas.JAASServiceImpl I CWWKS1123I: Das Verbundauthentifizierungs-Plug-in mit dem Klassennamen NullCollectiveAuthenticationPlugin wurde aktiviert. 
+[29.09.20, 22:04:35:825 MESZ] 00000019 com.ibm.ws.security.wim.VMMService                           I CWIMK0009I: Der Service für die Einbindung der Benutzerregistry ist bereit.
+[29.09.20, 22:04:35:831 MESZ] 00000019 com.ibm.ws.security.ready.internal.SecurityReadyServiceImpl  I CWWKS0008I: Der Sicherheitsservice ist bereit.
+[29.09.20, 22:04:35:881 MESZ] 00000019 com.ibm.ws.security.oauth20.web.OAuth20EndpointServices      I CWWKS1410I: Der OAuth-Endpunktservice ist aktiviert.
+[29.09.20, 22:04:35:906 MESZ] 00000019 com.ibm.ws.security.jwt.internal.ConsumerImpl                I CWWKS6012I: Der JWT-Konsumentenservice (JSON Web Token) ist verfügbar.
+[29.09.20, 22:04:35:919 MESZ] 00000019 com.ibm.ws.security.jwt.web.JwtEndpointServices              I CWWKS6002I: Der JWT-Endpunktservice (JSON Web Token) ist verfügbar.
+[29.09.20, 22:04:35:964 MESZ] 00000019 .ws.security.mp.jwt.v11.config.impl.MpConfigProxyServiceImpl I CWWKS5775I: Die mpConfigProxy-Konfiguration von MicroProfile JWT Version 1.1 wurde erfolgreich verarbeitet.
+[29.09.20, 22:04:35:972 MESZ] 00000019 com.ibm.ws.security.mp.jwt.impl.MicroProfileJwtServiceImpl   I CWWKS5500I: Die MicroProfile-JWT-Konfiguration [MicroProfileJwtService] wurde erfolgreich verarbeitet.
+[29.09.20, 22:04:35:973 MESZ] 00000019 com.ibm.ws.security.mp.jwt.impl.MicroProfileJwtConfigImpl    I CWWKS5500I: Die MicroProfile-JWT-Konfiguration [defaultMpJwt] wurde erfolgreich verarbeitet.
+[29.09.20, 22:04:35:974 MESZ] 00000019 com.ibm.ws.security.mp.jwt.impl.MicroProfileJwtConfigImpl    I CWWKS5500I: Die MicroProfile-JWT-Konfiguration [myMpJwt] wurde erfolgreich verarbeitet.
+[29.09.20, 22:04:36:281 MESZ] 00000037 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Die Anwendung product wird gestartet.
+[29.09.20, 22:04:36:282 MESZ] 00000037 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: Die Anwendung product verwendet die lose Anwendungsdefinition an der Position C:\Users\vib61\Documents\Bachelorarbeit\product-service\target\liberty\wlp\usr\servers\defaultServer\apps\product.war.xml.
+[29.09.20, 22:04:36:449 MESZ] 00000035 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Das Webmodul wird geladen: com.ibm.ws.security.jwt.
+[29.09.20, 22:04:36:452 MESZ] 00000035 com.ibm.ws.webcontainer                                      I SRVE0250I: Das Webmodul com.ibm.ws.security.jwt wurde an default_host gebunden.
+[29.09.20, 22:04:36:448 MESZ] 00000036 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Das Webmodul wird geladen: OpenID Connect Client Redirect Servlet.
+[29.09.20, 22:04:36:454 MESZ] 00000036 com.ibm.ws.webcontainer                                      I SRVE0250I: Das Webmodul OpenID Connect Client Redirect Servlet wurde an default_host gebunden.
+[29.09.20, 22:04:36:453 MESZ] 00000035 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Webanwendung verfügbar: (default_host): http://host.docker.internal:9081/jwt/
+[29.09.20, 22:04:36:459 MESZ] 00000036 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Webanwendung verfügbar: (default_host): http://host.docker.internal:9081/oidcclient/
+[29.09.20, 22:04:36:475 MESZ] 00000036 com.ibm.ws.session.WASSessionCore                            I SESN8501I: Der Sitzungsmanager konnte keine persistente Speicherposition finden. HttpSession-Objekte werden im lokalen Anwendungsserverspeicher gespeichert.
+[29.09.20, 22:04:36:494 MESZ] 0000003e com.ibm.ws.session.WASSessionCore                            I SESN0176I: Es wird ein neuer Sitzungskontext für den Anwendungsschlüssel default_host/oidcclient erstellt.
+[29.09.20, 22:04:36:512 MESZ] 0000003e com.ibm.ws.util                                              I SESN0172I: Der Sitzungsmanager verwendet die SecureRandom-Java-Standardimplementierung für die Generierung von Sitzungs-IDs.
+[29.09.20, 22:04:36:565 MESZ] 00000034 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Das Webmodul wird geladen: com.ibm.oauth.test.war.
+[29.09.20, 22:04:36:565 MESZ] 0000003e com.ibm.ws.cache.CacheServiceImpl                            I DYNA1056I: Dynamic Cache (Objektcache) wurde erfolgreich initialisiert.
+[29.09.20, 22:04:36:565 MESZ] 00000034 com.ibm.ws.webcontainer                                      I SRVE0250I: Das Webmodul com.ibm.oauth.test.war wurde an default_host gebunden.
+[29.09.20, 22:04:36:566 MESZ] 00000034 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Webanwendung verfügbar: (default_host): http://host.docker.internal:9081/oauth2/
+[29.09.20, 22:04:36:577 MESZ] 0000003d com.ibm.ws.session.WASSessionCore                            I SESN0176I: Es wird ein neuer Sitzungskontext für den Anwendungsschlüssel default_host/jwt erstellt.
+[29.09.20, 22:04:36:584 MESZ] 0000003d com.ibm.ws.util                                              I SESN0172I: Der Sitzungsmanager verwendet die SecureRandom-Java-Standardimplementierung für die Generierung von Sitzungs-IDs.
+[29.09.20, 22:04:36:592 MESZ] 00000034 com.ibm.ws.session.WASSessionCore                            I SESN0176I: Es wird ein neuer Sitzungskontext für den Anwendungsschlüssel default_host/oauth2 erstellt.
+[29.09.20, 22:04:36:593 MESZ] 00000034 com.ibm.ws.util                                              I SESN0172I: Der Sitzungsmanager verwendet die SecureRandom-Java-Standardimplementierung für die Generierung von Sitzungs-IDs.
+[29.09.20, 22:04:36:595 MESZ] 00000034 com.ibm.ws.jsp                                               I JSPG8502I: Der Wert des JSP-Attributs jdkSourceLevel ist "15".
+[29.09.20, 22:04:36:635 MESZ] 00000034 com.ibm.ws.webcontainer.security.ServletStartedListener      I CWWKS9122I:  Für die URL /login.jsp in der Anwendung com.ibm.ws.security.oauth.2.0 wurden die folgenden HTTP-Methoden erkannt, die zugänglich sind: PUT DELETE HEAD OPTIONS TRACE 
+[29.09.20, 22:04:36:635 MESZ] 0000003e com.ibm.ws.webcontainer.security.ServletStartedListener      I CWWKS9122I:  Für die URL /redirect/* in der Anwendung com.ibm.ws.security.openidconnect.client wurden die folgenden HTTP-Methoden erkannt, die zugänglich sind: GET POST PUT DELETE HEAD OPTIONS TRACE 
+[29.09.20, 22:04:36:637 MESZ] 00000034 com.ibm.ws.webcontainer.security.ServletStartedListener      I CWWKS9122I:  Für die URL /declarativeEndpoint/* in der Anwendung com.ibm.ws.security.oauth.2.0 wurden die folgenden HTTP-Methoden erkannt, die zugänglich sind: PUT DELETE HEAD OPTIONS TRACE 
+[29.09.20, 22:04:36:637 MESZ] 00000034 com.ibm.ws.webcontainer.security.ServletStartedListener      I CWWKS9122I:  Für die URL /clientMetatype in der Anwendung com.ibm.ws.security.oauth.2.0 wurden die folgenden HTTP-Methoden erkannt, die zugänglich sind: POST PUT DELETE HEAD OPTIONS TRACE 
+[29.09.20, 22:04:36:825 MESZ] 00000036 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Es wurde automatisch eine Konfigurationsdatei für ein Web-Server-Plug-in für diesen Server unter C:\Users\vib61\Documents\Bachelorarbeit\product-service\target\liberty\wlp\usr\servers\defaultServer\logs\state\plugin-cfg.xml generiert.
+[29.09.20, 22:04:36:851 MESZ] 00000037 org.jboss.weld.Version                                       I WELD-000900: 3.1.4 (Final)
+[29.09.20, 22:04:37:922 MESZ] 00000037 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Das Webmodul wird geladen: Liberty Project.
+[29.09.20, 22:04:37:922 MESZ] 00000037 com.ibm.ws.webcontainer                                      I SRVE0250I: Das Webmodul Liberty Project wurde an default_host gebunden.
+[29.09.20, 22:04:37:922 MESZ] 00000037 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Webanwendung verfügbar: (default_host): http://host.docker.internal:9081/
+[29.09.20, 22:04:37:926 MESZ] 00000028 com.ibm.ws.session.WASSessionCore                            I SESN0176I: Es wird ein neuer Sitzungskontext für den Anwendungsschlüssel default_host/ erstellt.
+[29.09.20, 22:04:37:926 MESZ] 00000028 com.ibm.ws.util                                              I SESN0172I: Der Sitzungsmanager verwendet die SecureRandom-Java-Standardimplementierung für die Generierung von Sitzungs-IDs.
+[29.09.20, 22:04:37:963 MESZ] 00000027 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Es wurde automatisch eine Konfigurationsdatei für ein Web-Server-Plug-in für diesen Server unter C:\Users\vib61\Documents\Bachelorarbeit\product-service\target\liberty\wlp\usr\servers\defaultServer\logs\state\plugin-cfg.xml generiert.
+[29.09.20, 22:04:37:994 MESZ] 00000028 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0001I: Die Anwendung product ist nach 1,713 Sekunden gestartet.
+[29.09.20, 22:04:38:005 MESZ] 00000025 com.ibm.ws.tcpchannel.internal.TCPPort                       I CWWKO0219I: Der TCP-Kanal defaultHttpEndpoint wurde gestartet und ist jetzt für Anforderungen auf dem Host *  (IPv6) an Port 9081 empfangsbereit.
+[29.09.20, 22:04:38:029 MESZ] 00000025 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0012I: Im Server wurden die folgenden Features installiert: [appSecurity-2.0, cdi-2.0, distributedMap-1.0, el-3.0, federatedRegistry-1.0, jaxrs-2.1, jaxrsClient-2.1, jdbc-4.2, jndi-1.0, jpa-2.2, jpaContainer-2.2, json-1.0, jsonp-1.1, jsp-2.3, jwt-1.0, ldapRegistry-3.0, mpConfig-1.4, mpJwt-1.1, mpRestClient-1.4, oauth-2.0, openidConnectClient-1.0, servlet-4.0, ssl-1.0, transportSecurity-1.0].
+[29.09.20, 22:04:38:029 MESZ] 00000025 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0008I: Die Featureaktualisierung wurde in 3,948 Sekunden durchgeführt.
+[29.09.20, 22:04:38:030 MESZ] 00000025 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0011I: Der Server defaultServer ist für die Ausführung von Smarter Planet bereit. Der Server defaultServer ist nach 4,989 Sekunden gestartet.
+[29.09.20, 22:04:41:013 MESZ] 0000002b com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Webanwendung entfernt (default_host): http://host.docker.internal:9081/
+[29.09.20, 22:04:41:034 MESZ] 0000002b com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: Die Anwendung product wurde erfolgreich gestoppt.
+[29.09.20, 22:04:41:039 MESZ] 0000002b com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Die Anwendung product wird gestartet.
+[29.09.20, 22:04:41:039 MESZ] 0000002b bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: Die Anwendung product verwendet die lose Anwendungsdefinition an der Position C:\Users\vib61\Documents\Bachelorarbeit\product-service\target\liberty\wlp\usr\servers\defaultServer\apps\product.war.xml.
+[29.09.20, 22:04:41:067 MESZ] 00000031 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Es wurde automatisch eine Konfigurationsdatei für ein Web-Server-Plug-in für diesen Server unter C:\Users\vib61\Documents\Bachelorarbeit\product-service\target\liberty\wlp\usr\servers\defaultServer\logs\state\plugin-cfg.xml generiert.
+[29.09.20, 22:04:41:489 MESZ] 0000002b com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Das Webmodul wird geladen: Liberty Project.
+[29.09.20, 22:04:41:489 MESZ] 0000002b com.ibm.ws.webcontainer                                      I SRVE0250I: Das Webmodul Liberty Project wurde an default_host gebunden.
+[29.09.20, 22:04:41:489 MESZ] 0000002b com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Webanwendung verfügbar: (default_host): http://host.docker.internal:9081/
+[29.09.20, 22:04:41:490 MESZ] 0000003c com.ibm.ws.session.WASSessionCore                            I SESN0176I: Es wird ein neuer Sitzungskontext für den Anwendungsschlüssel default_host/ erstellt.
+[29.09.20, 22:04:41:490 MESZ] 0000003c com.ibm.ws.util                                              I SESN0172I: Der Sitzungsmanager verwendet die SecureRandom-Java-Standardimplementierung für die Generierung von Sitzungs-IDs.
+[29.09.20, 22:04:41:524 MESZ] 0000002b com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Es wurde automatisch eine Konfigurationsdatei für ein Web-Server-Plug-in für diesen Server unter C:\Users\vib61\Documents\Bachelorarbeit\product-service\target\liberty\wlp\usr\servers\defaultServer\logs\state\plugin-cfg.xml generiert.
+[29.09.20, 22:04:41:542 MESZ] 0000003c com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: Die Anwendung product wurde nach 0,503 Sekunden aktualisiert.
+[29.09.20, 22:06:04:052 MESZ] 0000002b .apache.cxf.cxf.core.3.2:1.0.45.cl201020200915-1100(id=207)] I Setting the server's publish address to be /product/
+[29.09.20, 22:06:04:100 MESZ] 0000002b com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [product] [/] [io.microservice.thi.product.ProductApplication]: Initialisierung erfolgreich.
+[29.09.20, 22:06:04:182 MESZ] 0000002b com.ibm.ws.recoverylog.spi.RecoveryDirectorImpl              I CWRLS0010I: Die Wiederherstellung für den lokalen WebSphere-Server (defaultServer) wird durchgeführt.
+[29.09.20, 22:06:04:256 MESZ] 0000002b com.ibm.ws.recoverylog.spi.RecoveryDirectorImpl              I CWRLS0012I: Alle persistenten Services wurden angewiesen, die Wiederherstellung für den WebSphere-Server (defaultServer) durchzuführen.
+[29.09.20, 22:06:04:256 MESZ] 0000004f com.ibm.tx.jta.impl.RecoveryManager                          I WTRN0135I: Der Transaktionsservice stellt keine Transaktionen wieder her.
+[29.09.20, 22:06:04:268 MESZ] 0000002b SystemOut                                                    O ... [Author] MP JWT getIssuedAtTime 1601409806
+[29.09.20, 22:06:04:268 MESZ] 0000002b SystemOut                                                    O ... [Author] getIssuer: http://localhost:8080/auth/realms/Productservice-token
+[29.09.20, 22:06:04:269 MESZ] 0000002b SystemOut                                                    O ... [Author] getRawToken: eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJhOFpqRXQ3SU9wUkxlY0xiMXd6X21ocGtJUmxJUDN2NkNKdUJNU1NReUhNIn0.eyJleHAiOjE2MDE0MTAxMDYsImlhdCI6MTYwMTQwOTgwNiwiYXV0aF90aW1lIjoxNjAxNDA2NTM1LCJqdGkiOiI0ZWI0ZmU0Ny05NTE4LTQ5OWMtODI1MC1hZjUxYzRhM2U2NjciLCJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjgwODAvYXV0aC9yZWFsbXMvUHJvZHVjdHNlcnZpY2UtdG9rZW4iLCJhdWQiOiJhY2NvdW50Iiwic3ViIjoiNDJkY2RjNzEtN2I0NC00NTZiLWJiMzQtODYzYjY1ZjYyMDA3IiwidHlwIjoiQmVhcmVyIiwiYXpwIjoicHJvZHVjdC1hdXRoIiwic2Vzc2lvbl9zdGF0ZSI6Ijg4Mzk1ZDU3LThkNjItNGJlOC04NWJhLWNjNTFiYmM5ODVhNiIsImFjciI6IjAiLCJhbGxvd2VkLW9yaWdpbnMiOlsiLyoiXSwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbImFkbWluIl19LCJyZXNvdXJjZV9hY2Nlc3MiOnsiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsIm1hbmFnZS1hY2NvdW50LWxpbmtzIiwidmlldy1wcm9maWxlIl19fSwic2NvcGUiOiJlbWFpbCBwcm9maWxlIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsIm5hbWUiOiJTaG9wIEFkbWluIiwicHJlZmVycmVkX3VzZXJuYW1lIjoic2hvcGFkbWluIiwiZ2l2ZW5fbmFtZSI6IlNob3AiLCJmYW1pbHlfbmFtZSI6IkFkbWluIn0.TLuM-LSMo8qml7vF_OkFrKfIIbMQd3F-aRwkbuYRFxAeNEzNoktwFbZ29LQWbNbwx_CTSstDAALS5Ifm_aqcMUfnuABX5aG6jJX0IDxy2oAkd-frINtS6mVQO2rEdjucC45fWWo4LXGTgaHDuC9qqdNlHauKHzmNwta3uDgKZW26snct-F_BKh90vUFyyFNt52SJ2RVpoyA9SqVfSbV8QR-ryYz-3sKVTnlqFS1sB9ActCaMWghn17sk2uJAHMQxX0to_M8YBj-Ht1fMabgGZ9f5rKXHNHO-0K-Hj4kA3T3p6xk8Sl-sHz3j2xzjnPF3q6Su2eD8kjaxqYiV_ufYYw
+[29.09.20, 22:06:04:269 MESZ] 0000002b SystemOut                                                    O ... [Author] getTokenID: 4eb4fe47-9518-499c-8250-af51c4a3e667
+[29.09.20, 22:06:04:274 MESZ] 0000002b com.ibm.ws.jpa.management.JPAApplInfo                        E CWWJP0012E: Der Persistenzeinheitenname ist nicht angegeben, und es wurde keine eindeutige Persistenzeinheit in der Anwendung product und im Modul product.war gefunden.
+[29.09.20, 22:06:04:275 MESZ] 0000002b com.ibm.ws.jpa.management.JPAApplInfo                        E CWWJP0029E: Der Server kann die Persistenzeinheit <default> im Modul product.war und in der Anwendung product nicht finden.
+[29.09.20, 22:06:04:276 MESZ] 0000002b com.ibm.wsspi.injectionengine.InjectionBinding               E CWNEN0035E: Die Referenz java:comp/env/product_db des Typs javax.persistence.EntityManager für die Komponente null im Modul product.war der Anwendung product kann nicht aufgelöst werden.
+[29.09.20, 22:06:04:351 MESZ] 0000002b com.ibm.ws.logging.internal.impl.IncidentImpl                I FFDC1015I: Es wurde ein FFDC-Vorfall erstellt: "com.ibm.wsspi.injectionengine.InjectionException: The java:comp/env/product_db reference of type javax.persistence.EntityManager for the null component in the product.war module of the product application cannot be resolved. com.ibm.ws.cdi.impl.weld.injection.WebSphereInjectionServicesImpl 199" unter ffdc_20.09.29_22.06.04.0.log
+[29.09.20, 22:06:04:354 MESZ] 0000002b bm.ws.cdi.impl.weld.injection.WebSphereInjectionServicesImpl E CWOWB1000E: Es ist ein CDI-Fehler aufgetreten: The java:comp/env/product_db reference of type javax.persistence.EntityManager for the null component in the product.war module of the product application cannot be resolved.
+[29.09.20, 22:06:04:383 MESZ] 0000002b com.ibm.ws.logging.internal.impl.IncidentImpl                I FFDC1015I: Es wurde ein FFDC-Vorfall erstellt: "com.ibm.wsspi.injectionengine.InjectionException: The java:comp/env/product_db reference of type javax.persistence.EntityManager for the null component in the product.war module of the product application cannot be resolved. com.ibm.ws.cdi.impl.weld.injection.WebSphereInjectionServicesImpl.inject 248" unter ffdc_20.09.29_22.06.04.1.log
+[29.09.20, 22:06:04:443 MESZ] 0000002b com.ibm.ws.logging.internal.impl.IncidentImpl                I FFDC1015I: Es wurde ein FFDC-Vorfall erstellt: "java.security.PrivilegedActionException: com.ibm.wsspi.injectionengine.InjectionException: The java:comp/env/product_db reference of type javax.persistence.EntityManager for the null component in the product.war module of the product application cannot be resolved. com.ibm.ws.cdi.impl.weld.injection.WebSphereInjectionServicesImpl 116" unter ffdc_20.09.29_22.06.04.2.log
+[29.09.20, 22:06:04:444 MESZ] 0000002b bm.ws.cdi.impl.weld.injection.WebSphereInjectionServicesImpl E CWOWB1000E: Es ist ein CDI-Fehler aufgetreten: The java:comp/env/product_db reference of type javax.persistence.EntityManager for the null component in the product.war module of the product application cannot be resolved.
+[29.09.20, 22:06:04:447 MESZ] 0000002b com.ibm.ws.logging.internal.impl.IncidentImpl                I FFDC1015I: Es wurde ein FFDC-Vorfall erstellt: "java.lang.NullPointerException com.ibm.ws.uow.UOWManagerImpl.runUnderCurrentUOW 1130" unter ffdc_20.09.29_22.06.04.3.log
+[29.09.20, 22:06:04:457 MESZ] 0000002b .apache.cxf.cxf.core.3.2:1.0.45.cl201020200915-1100(id=207)] W Application {http://product.thi.microservice.io/}ImageService has thrown exception, unwinding now
+org.apache.cxf.interceptor.Fault
+	at org.apache.cxf.service.invoker.AbstractInvoker.createFault(AbstractInvoker.java:162)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:128)
+	at com.ibm.ws.jaxrs20.server.LibertyJaxRsInvoker.invoke(LibertyJaxRsInvoker.java:273)
+	at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:210)
+	at com.ibm.ws.jaxrs20.server.LibertyJaxRsInvoker.invoke(LibertyJaxRsInvoker.java:444)
+	at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:112)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:61)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:99)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:318)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:123)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:273)
+	at com.ibm.ws.jaxrs20.endpoint.AbstractJaxRsWebEndpoint.invoke(AbstractJaxRsWebEndpoint.java:136)
+	at com.ibm.websphere.jaxrs.server.IBMRestServlet.handleRequest(IBMRestServlet.java:146)
+	at com.ibm.websphere.jaxrs.server.IBMRestServlet.doGet(IBMRestServlet.java:112)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:686)
+	at com.ibm.websphere.jaxrs.server.IBMRestServlet.service(IBMRestServlet.java:96)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.service(ServletWrapper.java:1230)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:729)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:426)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters(WebAppFilterManager.java:1226)
+	at com.ibm.ws.webcontainer.webapp.WebApp.handleRequest(WebApp.java:5057)
+	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.handleRequest(DynamicVirtualHost.java:314)
+	at com.ibm.ws.webcontainer.WebContainer.handleRequest(WebContainer.java:1005)
+	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.run(DynamicVirtualHost.java:279)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink$TaskWrapper.run(HttpDispatcherLink.java:1134)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.wrapHandlerAndExecute(HttpDispatcherLink.java:415)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.ready(HttpDispatcherLink.java:374)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleDiscrimination(HttpInboundLink.java:577)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleNewRequest(HttpInboundLink.java:511)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.processRequest(HttpInboundLink.java:359)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.ready(HttpInboundLink.java:326)
+	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.sendToDiscriminators(NewConnectionInitialReadCallback.java:167)
+	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.complete(NewConnectionInitialReadCallback.java:75)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.requestComplete(WorkQueueManager.java:504)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.attemptIO(WorkQueueManager.java:574)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.workerRun(WorkQueueManager.java:958)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager$Worker.run(WorkQueueManager.java:1047)
+	at com.ibm.ws.threading.internal.ExecutorServiceImpl$RunnableWrapper.run(ExecutorServiceImpl.java:239)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: java.lang.NullPointerException
+	at io.microservice.thi.product.DAO.ProductDAO.readAllProducts(ProductDAO.java:34)
+	at io.microservice.thi.product.DAO.ProductDAO$Proxy$_$$_WeldClientProxy.readAllProducts(Unknown Source)
+	at io.microservice.thi.product.ProductService.getProducts(ProductService.java:116)
+	at io.microservice.thi.product.ProductService$Proxy$_$$_WeldSubclass.getProducts$$super(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor711.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.jboss.weld.interceptor.proxy.TerminalAroundInvokeInvocationContext.proceedInternal(TerminalAroundInvokeInvocationContext.java:51)
+	at org.jboss.weld.interceptor.proxy.AroundInvokeInvocationContext.proceed(AroundInvokeInvocationContext.java:78)
+	at com.ibm.tx.jta.cdi.interceptors.TransactionalInterceptor$1.run(TransactionalInterceptor.java:137)
+	at com.ibm.ws.uow.embeddable.EmbeddableUOWManagerImpl.runUnderCurrentUOW(EmbeddableUOWManagerImpl.java:1077)
+	at com.ibm.ws.uow.embeddable.EmbeddableUOWManagerImpl.runUnderNewUOW(EmbeddableUOWManagerImpl.java:1040)
+	at com.ibm.ws.uow.embeddable.EmbeddableUOWManagerImpl.runUnderUOW(EmbeddableUOWManagerImpl.java:1013)
+	at com.ibm.tx.jta.cdi.interceptors.TransactionalInterceptor.runUnderUOWManagingEnablement(TransactionalInterceptor.java:151)
+	at com.ibm.tx.jta.cdi.interceptors.Required.required(Required.java:40)
+	at jdk.internal.reflect.GeneratedMethodAccessor710.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.jboss.weld.interceptor.reader.SimpleInterceptorInvocation$SimpleMethodInvocation.invoke(SimpleInterceptorInvocation.java:73)
+	at org.jboss.weld.interceptor.proxy.InterceptorMethodHandler.executeAroundInvoke(InterceptorMethodHandler.java:84)
+	at org.jboss.weld.interceptor.proxy.InterceptorMethodHandler.executeInterception(InterceptorMethodHandler.java:72)
+	at org.jboss.weld.interceptor.proxy.InterceptorMethodHandler.invoke(InterceptorMethodHandler.java:56)
+	at org.jboss.weld.bean.proxy.CombinedInterceptorAndDecoratorStackMethodHandler.invoke(CombinedInterceptorAndDecoratorStackMethodHandler.java:79)
+	at org.jboss.weld.bean.proxy.CombinedInterceptorAndDecoratorStackMethodHandler.invoke(CombinedInterceptorAndDecoratorStackMethodHandler.java:68)
+	at io.microservice.thi.product.ProductService$Proxy$_$$_WeldSubclass.getProducts(Unknown Source)
+	at io.microservice.thi.product.ProductService$Proxy$_$$_WeldClientProxy.getProducts(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor709.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at com.ibm.ws.jaxrs20.cdi.component.JaxRsFactoryImplicitBeanCDICustomizer.serviceInvoke(JaxRsFactoryImplicitBeanCDICustomizer.java:342)
+	at com.ibm.ws.jaxrs20.server.LibertyJaxRsServerFactoryBean.performInvocation(LibertyJaxRsServerFactoryBean.java:641)
+	at com.ibm.ws.jaxrs20.server.LibertyJaxRsInvoker.performInvocation(LibertyJaxRsInvoker.java:160)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)
+	... 39 more
+
+[29.09.20, 22:06:04:463 MESZ] 0000002b .apache.cxf.cxf.core.3.2:1.0.45.cl201020200915-1100(id=207)] W Exception in handleFault on interceptor org.apache.cxf.jaxrs.interceptor.JAXRSDefaultFaultOutInterceptor@199040d9
+org.apache.cxf.interceptor.Fault
+	at org.apache.cxf.service.invoker.AbstractInvoker.createFault(AbstractInvoker.java:162)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:128)
+	at com.ibm.ws.jaxrs20.server.LibertyJaxRsInvoker.invoke(LibertyJaxRsInvoker.java:273)
+	at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:210)
+	at com.ibm.ws.jaxrs20.server.LibertyJaxRsInvoker.invoke(LibertyJaxRsInvoker.java:444)
+	at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:112)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:61)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:99)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:318)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:123)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:273)
+	at com.ibm.ws.jaxrs20.endpoint.AbstractJaxRsWebEndpoint.invoke(AbstractJaxRsWebEndpoint.java:136)
+	at com.ibm.websphere.jaxrs.server.IBMRestServlet.handleRequest(IBMRestServlet.java:146)
+	at com.ibm.websphere.jaxrs.server.IBMRestServlet.doGet(IBMRestServlet.java:112)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:686)
+	at com.ibm.websphere.jaxrs.server.IBMRestServlet.service(IBMRestServlet.java:96)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.service(ServletWrapper.java:1230)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:729)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:426)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters(WebAppFilterManager.java:1226)
+	at com.ibm.ws.webcontainer.webapp.WebApp.handleRequest(WebApp.java:5057)
+	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.handleRequest(DynamicVirtualHost.java:314)
+	at com.ibm.ws.webcontainer.WebContainer.handleRequest(WebContainer.java:1005)
+	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.run(DynamicVirtualHost.java:279)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink$TaskWrapper.run(HttpDispatcherLink.java:1134)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.wrapHandlerAndExecute(HttpDispatcherLink.java:415)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.ready(HttpDispatcherLink.java:374)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleDiscrimination(HttpInboundLink.java:577)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleNewRequest(HttpInboundLink.java:511)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.processRequest(HttpInboundLink.java:359)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.ready(HttpInboundLink.java:326)
+	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.sendToDiscriminators(NewConnectionInitialReadCallback.java:167)
+	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.complete(NewConnectionInitialReadCallback.java:75)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.requestComplete(WorkQueueManager.java:504)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.attemptIO(WorkQueueManager.java:574)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.workerRun(WorkQueueManager.java:958)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager$Worker.run(WorkQueueManager.java:1047)
+	at com.ibm.ws.threading.internal.ExecutorServiceImpl$RunnableWrapper.run(ExecutorServiceImpl.java:239)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: java.lang.NullPointerException
+	at io.microservice.thi.product.DAO.ProductDAO.readAllProducts(ProductDAO.java:34)
+	at io.microservice.thi.product.DAO.ProductDAO$Proxy$_$$_WeldClientProxy.readAllProducts(Unknown Source)
+	at io.microservice.thi.product.ProductService.getProducts(ProductService.java:116)
+	at io.microservice.thi.product.ProductService$Proxy$_$$_WeldSubclass.getProducts$$super(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor711.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.jboss.weld.interceptor.proxy.TerminalAroundInvokeInvocationContext.proceedInternal(TerminalAroundInvokeInvocationContext.java:51)
+	at org.jboss.weld.interceptor.proxy.AroundInvokeInvocationContext.proceed(AroundInvokeInvocationContext.java:78)
+	at com.ibm.tx.jta.cdi.interceptors.TransactionalInterceptor$1.run(TransactionalInterceptor.java:137)
+	at com.ibm.ws.uow.embeddable.EmbeddableUOWManagerImpl.runUnderCurrentUOW(EmbeddableUOWManagerImpl.java:1077)
+	at com.ibm.ws.uow.embeddable.EmbeddableUOWManagerImpl.runUnderNewUOW(EmbeddableUOWManagerImpl.java:1040)
+	at com.ibm.ws.uow.embeddable.EmbeddableUOWManagerImpl.runUnderUOW(EmbeddableUOWManagerImpl.java:1013)
+	at com.ibm.tx.jta.cdi.interceptors.TransactionalInterceptor.runUnderUOWManagingEnablement(TransactionalInterceptor.java:151)
+	at com.ibm.tx.jta.cdi.interceptors.Required.required(Required.java:40)
+	at jdk.internal.reflect.GeneratedMethodAccessor710.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.jboss.weld.interceptor.reader.SimpleInterceptorInvocation$SimpleMethodInvocation.invoke(SimpleInterceptorInvocation.java:73)
+	at org.jboss.weld.interceptor.proxy.InterceptorMethodHandler.executeAroundInvoke(InterceptorMethodHandler.java:84)
+	at org.jboss.weld.interceptor.proxy.InterceptorMethodHandler.executeInterception(InterceptorMethodHandler.java:72)
+	at org.jboss.weld.interceptor.proxy.InterceptorMethodHandler.invoke(InterceptorMethodHandler.java:56)
+	at org.jboss.weld.bean.proxy.CombinedInterceptorAndDecoratorStackMethodHandler.invoke(CombinedInterceptorAndDecoratorStackMethodHandler.java:79)
+	at org.jboss.weld.bean.proxy.CombinedInterceptorAndDecoratorStackMethodHandler.invoke(CombinedInterceptorAndDecoratorStackMethodHandler.java:68)
+	at io.microservice.thi.product.ProductService$Proxy$_$$_WeldSubclass.getProducts(Unknown Source)
+	at io.microservice.thi.product.ProductService$Proxy$_$$_WeldClientProxy.getProducts(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor709.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at com.ibm.ws.jaxrs20.cdi.component.JaxRsFactoryImplicitBeanCDICustomizer.serviceInvoke(JaxRsFactoryImplicitBeanCDICustomizer.java:342)
+	at com.ibm.ws.jaxrs20.server.LibertyJaxRsServerFactoryBean.performInvocation(LibertyJaxRsServerFactoryBean.java:641)
+	at com.ibm.ws.jaxrs20.server.LibertyJaxRsInvoker.performInvocation(LibertyJaxRsInvoker.java:160)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)
+	... 39 more
+
+[29.09.20, 22:06:04:466 MESZ] 0000002b .apache.cxf.cxf.core.3.2:1.0.45.cl201020200915-1100(id=207)] E An unexpected error occurred during error handling. No further error processing will occur.
+org.apache.cxf.interceptor.Fault
+	at org.apache.cxf.service.invoker.AbstractInvoker.createFault(AbstractInvoker.java:162)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:128)
+	at com.ibm.ws.jaxrs20.server.LibertyJaxRsInvoker.invoke(LibertyJaxRsInvoker.java:273)
+	at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:210)
+	at com.ibm.ws.jaxrs20.server.LibertyJaxRsInvoker.invoke(LibertyJaxRsInvoker.java:444)
+	at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:112)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:61)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:99)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:318)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:123)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:273)
+	at com.ibm.ws.jaxrs20.endpoint.AbstractJaxRsWebEndpoint.invoke(AbstractJaxRsWebEndpoint.java:136)
+	at com.ibm.websphere.jaxrs.server.IBMRestServlet.handleRequest(IBMRestServlet.java:146)
+	at com.ibm.websphere.jaxrs.server.IBMRestServlet.doGet(IBMRestServlet.java:112)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:686)
+	at com.ibm.websphere.jaxrs.server.IBMRestServlet.service(IBMRestServlet.java:96)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.service(ServletWrapper.java:1230)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:729)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:426)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters(WebAppFilterManager.java:1226)
+	at com.ibm.ws.webcontainer.webapp.WebApp.handleRequest(WebApp.java:5057)
+	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.handleRequest(DynamicVirtualHost.java:314)
+	at com.ibm.ws.webcontainer.WebContainer.handleRequest(WebContainer.java:1005)
+	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.run(DynamicVirtualHost.java:279)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink$TaskWrapper.run(HttpDispatcherLink.java:1134)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.wrapHandlerAndExecute(HttpDispatcherLink.java:415)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.ready(HttpDispatcherLink.java:374)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleDiscrimination(HttpInboundLink.java:577)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleNewRequest(HttpInboundLink.java:511)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.processRequest(HttpInboundLink.java:359)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.ready(HttpInboundLink.java:326)
+	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.sendToDiscriminators(NewConnectionInitialReadCallback.java:167)
+	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.complete(NewConnectionInitialReadCallback.java:75)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.requestComplete(WorkQueueManager.java:504)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.attemptIO(WorkQueueManager.java:574)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.workerRun(WorkQueueManager.java:958)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager$Worker.run(WorkQueueManager.java:1047)
+	at com.ibm.ws.threading.internal.ExecutorServiceImpl$RunnableWrapper.run(ExecutorServiceImpl.java:239)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: java.lang.NullPointerException
+	at io.microservice.thi.product.DAO.ProductDAO.readAllProducts(ProductDAO.java:34)
+	at io.microservice.thi.product.DAO.ProductDAO$Proxy$_$$_WeldClientProxy.readAllProducts(Unknown Source)
+	at io.microservice.thi.product.ProductService.getProducts(ProductService.java:116)
+	at io.microservice.thi.product.ProductService$Proxy$_$$_WeldSubclass.getProducts$$super(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor711.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.jboss.weld.interceptor.proxy.TerminalAroundInvokeInvocationContext.proceedInternal(TerminalAroundInvokeInvocationContext.java:51)
+	at org.jboss.weld.interceptor.proxy.AroundInvokeInvocationContext.proceed(AroundInvokeInvocationContext.java:78)
+	at com.ibm.tx.jta.cdi.interceptors.TransactionalInterceptor$1.run(TransactionalInterceptor.java:137)
+	at com.ibm.ws.uow.embeddable.EmbeddableUOWManagerImpl.runUnderCurrentUOW(EmbeddableUOWManagerImpl.java:1077)
+	at com.ibm.ws.uow.embeddable.EmbeddableUOWManagerImpl.runUnderNewUOW(EmbeddableUOWManagerImpl.java:1040)
+	at com.ibm.ws.uow.embeddable.EmbeddableUOWManagerImpl.runUnderUOW(EmbeddableUOWManagerImpl.java:1013)
+	at com.ibm.tx.jta.cdi.interceptors.TransactionalInterceptor.runUnderUOWManagingEnablement(TransactionalInterceptor.java:151)
+	at com.ibm.tx.jta.cdi.interceptors.Required.required(Required.java:40)
+	at jdk.internal.reflect.GeneratedMethodAccessor710.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.jboss.weld.interceptor.reader.SimpleInterceptorInvocation$SimpleMethodInvocation.invoke(SimpleInterceptorInvocation.java:73)
+	at org.jboss.weld.interceptor.proxy.InterceptorMethodHandler.executeAroundInvoke(InterceptorMethodHandler.java:84)
+	at org.jboss.weld.interceptor.proxy.InterceptorMethodHandler.executeInterception(InterceptorMethodHandler.java:72)
+	at org.jboss.weld.interceptor.proxy.InterceptorMethodHandler.invoke(InterceptorMethodHandler.java:56)
+	at org.jboss.weld.bean.proxy.CombinedInterceptorAndDecoratorStackMethodHandler.invoke(CombinedInterceptorAndDecoratorStackMethodHandler.java:79)
+	at org.jboss.weld.bean.proxy.CombinedInterceptorAndDecoratorStackMethodHandler.invoke(CombinedInterceptorAndDecoratorStackMethodHandler.java:68)
+	at io.microservice.thi.product.ProductService$Proxy$_$$_WeldSubclass.getProducts(Unknown Source)
+	at io.microservice.thi.product.ProductService$Proxy$_$$_WeldClientProxy.getProducts(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor709.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at com.ibm.ws.jaxrs20.cdi.component.JaxRsFactoryImplicitBeanCDICustomizer.serviceInvoke(JaxRsFactoryImplicitBeanCDICustomizer.java:342)
+	at com.ibm.ws.jaxrs20.server.LibertyJaxRsServerFactoryBean.performInvocation(LibertyJaxRsServerFactoryBean.java:641)
+	at com.ibm.ws.jaxrs20.server.LibertyJaxRsInvoker.performInvocation(LibertyJaxRsInvoker.java:160)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)
+	... 39 more
+
+[29.09.20, 22:06:04:515 MESZ] 0000002b com.ibm.ws.webcontainer.util.ApplicationErrorUtils           E SRVE0777E: Es wurde eine Ausnahme von der Anwendungsklasse 'io.microservice.thi.product.DAO.ProductDAO.readAllProducts:34' ausgelöst.
+java.lang.NullPointerException
+	at io.microservice.thi.product.DAO.ProductDAO.readAllProducts(ProductDAO.java:34)
+	at io.microservice.thi.product.DAO.ProductDAO$Proxy$_$$_WeldClientProxy.readAllProducts(Unknown Source)
+	at io.microservice.thi.product.ProductService.getProducts(ProductService.java:116)
+	at io.microservice.thi.product.ProductService$Proxy$_$$_WeldSubclass.getProducts$$super(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor711.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.jboss.weld.interceptor.proxy.TerminalAroundInvokeInvocationContext.proceedInternal(TerminalAroundInvokeInvocationContext.java:51)
+	at org.jboss.weld.interceptor.proxy.AroundInvokeInvocationContext.proceed(AroundInvokeInvocationContext.java:78)
+	at com.ibm.tx.jta.cdi.interceptors.TransactionalInterceptor$1.run(TransactionalInterceptor.java:137)
+	at com.ibm.ws.uow.embeddable.EmbeddableUOWManagerImpl.runUnderCurrentUOW(EmbeddableUOWManagerImpl.java:1077)
+	at com.ibm.ws.uow.embeddable.EmbeddableUOWManagerImpl.runUnderNewUOW(EmbeddableUOWManagerImpl.java:1040)
+	at com.ibm.ws.uow.embeddable.EmbeddableUOWManagerImpl.runUnderUOW(EmbeddableUOWManagerImpl.java:1013)
+	at com.ibm.tx.jta.cdi.interceptors.TransactionalInterceptor.runUnderUOWManagingEnablement(TransactionalInterceptor.java:151)
+	at com.ibm.tx.jta.cdi.interceptors.Required.required(Required.java:40)
+	at jdk.internal.reflect.GeneratedMethodAccessor710.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.jboss.weld.interceptor.reader.SimpleInterceptorInvocation$SimpleMethodInvocation.invoke(SimpleInterceptorInvocation.java:73)
+	at org.jboss.weld.interceptor.proxy.InterceptorMethodHandler.executeAroundInvoke(InterceptorMethodHandler.java:84)
+	at org.jboss.weld.interceptor.proxy.InterceptorMethodHandler.executeInterception(InterceptorMethodHandler.java:72)
+	at org.jboss.weld.interceptor.proxy.InterceptorMethodHandler.invoke(InterceptorMethodHandler.java:56)
+	at org.jboss.weld.bean.proxy.CombinedInterceptorAndDecoratorStackMethodHandler.invoke(CombinedInterceptorAndDecoratorStackMethodHandler.java:79)
+	at org.jboss.weld.bean.proxy.CombinedInterceptorAndDecoratorStackMethodHandler.invoke(CombinedInterceptorAndDecoratorStackMethodHandler.java:68)
+	at io.microservice.thi.product.ProductService$Proxy$_$$_WeldSubclass.getProducts(Unknown Source)
+	at io.microservice.thi.product.ProductService$Proxy$_$$_WeldClientProxy.getProducts(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor709.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at com.ibm.ws.jaxrs20.cdi.component.JaxRsFactoryImplicitBeanCDICustomizer.serviceInvoke(JaxRsFactoryImplicitBeanCDICustomizer.java:342)
+	at com.ibm.ws.jaxrs20.server.LibertyJaxRsServerFactoryBean.performInvocation(LibertyJaxRsServerFactoryBean.java:641)
+	at com.ibm.ws.jaxrs20.server.LibertyJaxRsInvoker.performInvocation(LibertyJaxRsInvoker.java:160)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)
+	at com.ibm.ws.jaxrs20.server.LibertyJaxRsInvoker.invoke(LibertyJaxRsInvoker.java:273)
+	at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:210)
+	at com.ibm.ws.jaxrs20.server.LibertyJaxRsInvoker.invoke(LibertyJaxRsInvoker.java:444)
+	at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:112)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:61)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:99)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:318)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:123)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:273)
+	at com.ibm.ws.jaxrs20.endpoint.AbstractJaxRsWebEndpoint.invoke(AbstractJaxRsWebEndpoint.java:136)
+	at com.ibm.websphere.jaxrs.server.IBMRestServlet.handleRequest(IBMRestServlet.java:146)
+	at com.ibm.websphere.jaxrs.server.IBMRestServlet.doGet(IBMRestServlet.java:112)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:686)
+	at com.ibm.websphere.jaxrs.server.IBMRestServlet.service(IBMRestServlet.java:96)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.service(ServletWrapper.java:1230)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:729)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:426)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters(WebAppFilterManager.java:1226)
+	at com.ibm.ws.webcontainer.webapp.WebApp.handleRequest(WebApp.java:5057)
+	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.handleRequest(DynamicVirtualHost.java:314)
+	at com.ibm.ws.webcontainer.WebContainer.handleRequest(WebContainer.java:1005)
+	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.run(DynamicVirtualHost.java:279)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink$TaskWrapper.run(HttpDispatcherLink.java:1134)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.wrapHandlerAndExecute(HttpDispatcherLink.java:415)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.ready(HttpDispatcherLink.java:374)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleDiscrimination(HttpInboundLink.java:577)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleNewRequest(HttpInboundLink.java:511)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.processRequest(HttpInboundLink.java:359)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.ready(HttpInboundLink.java:326)
+	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.sendToDiscriminators(NewConnectionInitialReadCallback.java:167)
+	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.complete(NewConnectionInitialReadCallback.java:75)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.requestComplete(WorkQueueManager.java:504)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.attemptIO(WorkQueueManager.java:574)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.workerRun(WorkQueueManager.java:958)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager$Worker.run(WorkQueueManager.java:1047)
+	at com.ibm.ws.threading.internal.ExecutorServiceImpl$RunnableWrapper.run(ExecutorServiceImpl.java:239)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+[29.09.20, 22:06:04:651 MESZ] 0000002b com.ibm.ws.logging.internal.impl.IncidentImpl                I FFDC1015I: Es wurde ein FFDC-Vorfall erstellt: "java.lang.NullPointerException com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters 1105" unter ffdc_20.09.29_22.06.04.4.log
+[29.09.20, 22:06:04:653 MESZ] 0000002b com.ibm.ws.webcontainer.webapp                               E SRVE0315E: Es ist eine Ausnahme eingetreten: java.lang.Throwable: java.lang.NullPointerException
+	at com.ibm.ws.webcontainer.webapp.WebApp.handleRequest(WebApp.java:5115)
+	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.handleRequest(DynamicVirtualHost.java:314)
+	at com.ibm.ws.webcontainer.WebContainer.handleRequest(WebContainer.java:1005)
+	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.run(DynamicVirtualHost.java:279)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink$TaskWrapper.run(HttpDispatcherLink.java:1134)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.wrapHandlerAndExecute(HttpDispatcherLink.java:415)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.ready(HttpDispatcherLink.java:374)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleDiscrimination(HttpInboundLink.java:577)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleNewRequest(HttpInboundLink.java:511)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.processRequest(HttpInboundLink.java:359)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.ready(HttpInboundLink.java:326)
+	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.sendToDiscriminators(NewConnectionInitialReadCallback.java:167)
+	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.complete(NewConnectionInitialReadCallback.java:75)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.requestComplete(WorkQueueManager.java:504)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.attemptIO(WorkQueueManager.java:574)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.workerRun(WorkQueueManager.java:958)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager$Worker.run(WorkQueueManager.java:1047)
+	at com.ibm.ws.threading.internal.ExecutorServiceImpl$RunnableWrapper.run(ExecutorServiceImpl.java:239)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: java.lang.NullPointerException
+	at io.microservice.thi.product.DAO.ProductDAO.readAllProducts(ProductDAO.java:34)
+	at io.microservice.thi.product.DAO.ProductDAO$Proxy$_$$_WeldClientProxy.readAllProducts(Unknown Source)
+	at io.microservice.thi.product.ProductService.getProducts(ProductService.java:116)
+	at io.microservice.thi.product.ProductService$Proxy$_$$_WeldSubclass.getProducts$$super(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor711.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.jboss.weld.interceptor.proxy.TerminalAroundInvokeInvocationContext.proceedInternal(TerminalAroundInvokeInvocationContext.java:51)
+	at org.jboss.weld.interceptor.proxy.AroundInvokeInvocationContext.proceed(AroundInvokeInvocationContext.java:78)
+	at com.ibm.tx.jta.cdi.interceptors.TransactionalInterceptor$1.run(TransactionalInterceptor.java:137)
+	at com.ibm.ws.uow.embeddable.EmbeddableUOWManagerImpl.runUnderCurrentUOW(EmbeddableUOWManagerImpl.java:1077)
+	at com.ibm.ws.uow.embeddable.EmbeddableUOWManagerImpl.runUnderNewUOW(EmbeddableUOWManagerImpl.java:1040)
+	at com.ibm.ws.uow.embeddable.EmbeddableUOWManagerImpl.runUnderUOW(EmbeddableUOWManagerImpl.java:1013)
+	at com.ibm.tx.jta.cdi.interceptors.TransactionalInterceptor.runUnderUOWManagingEnablement(TransactionalInterceptor.java:151)
+	at com.ibm.tx.jta.cdi.interceptors.Required.required(Required.java:40)
+	at jdk.internal.reflect.GeneratedMethodAccessor710.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.jboss.weld.interceptor.reader.SimpleInterceptorInvocation$SimpleMethodInvocation.invoke(SimpleInterceptorInvocation.java:73)
+	at org.jboss.weld.interceptor.proxy.InterceptorMethodHandler.executeAroundInvoke(InterceptorMethodHandler.java:84)
+	at org.jboss.weld.interceptor.proxy.InterceptorMethodHandler.executeInterception(InterceptorMethodHandler.java:72)
+	at org.jboss.weld.interceptor.proxy.InterceptorMethodHandler.invoke(InterceptorMethodHandler.java:56)
+	at org.jboss.weld.bean.proxy.CombinedInterceptorAndDecoratorStackMethodHandler.invoke(CombinedInterceptorAndDecoratorStackMethodHandler.java:79)
+	at org.jboss.weld.bean.proxy.CombinedInterceptorAndDecoratorStackMethodHandler.invoke(CombinedInterceptorAndDecoratorStackMethodHandler.java:68)
+	at io.microservice.thi.product.ProductService$Proxy$_$$_WeldSubclass.getProducts(Unknown Source)
+	at io.microservice.thi.product.ProductService$Proxy$_$$_WeldClientProxy.getProducts(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor709.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at com.ibm.ws.jaxrs20.cdi.component.JaxRsFactoryImplicitBeanCDICustomizer.serviceInvoke(JaxRsFactoryImplicitBeanCDICustomizer.java:342)
+	at com.ibm.ws.jaxrs20.server.LibertyJaxRsServerFactoryBean.performInvocation(LibertyJaxRsServerFactoryBean.java:641)
+	at com.ibm.ws.jaxrs20.server.LibertyJaxRsInvoker.performInvocation(LibertyJaxRsInvoker.java:160)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)
+	at com.ibm.ws.jaxrs20.server.LibertyJaxRsInvoker.invoke(LibertyJaxRsInvoker.java:273)
+	at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:210)
+	at com.ibm.ws.jaxrs20.server.LibertyJaxRsInvoker.invoke(LibertyJaxRsInvoker.java:444)
+	at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:112)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:61)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:99)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:318)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:123)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:273)
+	at com.ibm.ws.jaxrs20.endpoint.AbstractJaxRsWebEndpoint.invoke(AbstractJaxRsWebEndpoint.java:136)
+	at com.ibm.websphere.jaxrs.server.IBMRestServlet.handleRequest(IBMRestServlet.java:146)
+	at com.ibm.websphere.jaxrs.server.IBMRestServlet.doGet(IBMRestServlet.java:112)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:686)
+	at com.ibm.websphere.jaxrs.server.IBMRestServlet.service(IBMRestServlet.java:96)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.service(ServletWrapper.java:1230)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:729)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:426)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters(WebAppFilterManager.java:1226)
+	at com.ibm.ws.webcontainer.webapp.WebApp.handleRequest(WebApp.java:5057)
+	... 20 more
+
+[29.09.20, 22:06:16:138 MESZ] 00000037 SystemOut                                                    O ... [Author] MP JWT getIssuedAtTime 1601409974
+[29.09.20, 22:06:16:139 MESZ] 00000037 SystemOut                                                    O ... [Author] getIssuer: http://localhost:8080/auth/realms/Productservice-token
+[29.09.20, 22:06:16:139 MESZ] 00000037 SystemOut                                                    O ... [Author] getRawToken: eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJhOFpqRXQ3SU9wUkxlY0xiMXd6X21ocGtJUmxJUDN2NkNKdUJNU1NReUhNIn0.eyJleHAiOjE2MDE0MTAyNzQsImlhdCI6MTYwMTQwOTk3NCwiYXV0aF90aW1lIjoxNjAxNDA2NTM1LCJqdGkiOiJhYjFiNmQ2NC1mMzY4LTRlN2EtYTc4Mi02ZmFiYjgyMTZlZGMiLCJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjgwODAvYXV0aC9yZWFsbXMvUHJvZHVjdHNlcnZpY2UtdG9rZW4iLCJhdWQiOiJhY2NvdW50Iiwic3ViIjoiNDJkY2RjNzEtN2I0NC00NTZiLWJiMzQtODYzYjY1ZjYyMDA3IiwidHlwIjoiQmVhcmVyIiwiYXpwIjoicHJvZHVjdC1hdXRoIiwic2Vzc2lvbl9zdGF0ZSI6Ijg4Mzk1ZDU3LThkNjItNGJlOC04NWJhLWNjNTFiYmM5ODVhNiIsImFjciI6IjAiLCJhbGxvd2VkLW9yaWdpbnMiOlsiLyoiXSwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbImFkbWluIl19LCJyZXNvdXJjZV9hY2Nlc3MiOnsiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsIm1hbmFnZS1hY2NvdW50LWxpbmtzIiwidmlldy1wcm9maWxlIl19fSwic2NvcGUiOiJlbWFpbCBwcm9maWxlIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsIm5hbWUiOiJTaG9wIEFkbWluIiwicHJlZmVycmVkX3VzZXJuYW1lIjoic2hvcGFkbWluIiwiZ2l2ZW5fbmFtZSI6IlNob3AiLCJmYW1pbHlfbmFtZSI6IkFkbWluIn0.i-HSJG_hIAMKNz-2YXGxTyhdtIVX5WphKRqx5j9ikgdTEQQmPeFNELIojdKyNGZFZwNEd1jJNo36IOgCWWLo8rImjcDhA6iS_ljcvouG0qKGFnjN_RuzibuM8BOLomnv3K7nFYRd4pyZa3mfd5zXN7RtlwCnr9Hv6HvmeB2K-O0YNLER4woyYLWUlrNTvqgOScxZSYK-xyrHKgtMlENyYOObN-TXKCODrvKrXW7DZCrmpeKhHZf9miiuJCsUuInjfrEu--JJp4vQS5EGINgn8NKwiy2FVy9Dyv0QKbnRBeVT_CcTHb7MfvKkAc5K8_1J3t5B8H2NvRt3H7g7X4YNww
+[29.09.20, 22:06:16:139 MESZ] 00000037 SystemOut                                                    O ... [Author] getTokenID: ab1b6d64-f368-4e7a-a782-6fabb8216edc
+[29.09.20, 22:06:16:139 MESZ] 00000037 com.ibm.ws.jpa.management.JPAApplInfo                        E CWWJP0012E: Der Persistenzeinheitenname ist nicht angegeben, und es wurde keine eindeutige Persistenzeinheit in der Anwendung product und im Modul product.war gefunden.
+[29.09.20, 22:06:16:140 MESZ] 00000037 com.ibm.ws.jpa.management.JPAApplInfo                        E CWWJP0029E: Der Server kann die Persistenzeinheit <default> im Modul product.war und in der Anwendung product nicht finden.
+[29.09.20, 22:06:16:140 MESZ] 00000037 com.ibm.wsspi.injectionengine.InjectionBinding               E CWNEN0035E: Die Referenz java:comp/env/product_db des Typs javax.persistence.EntityManager für die Komponente null im Modul product.war der Anwendung product kann nicht aufgelöst werden.
+[29.09.20, 22:06:16:140 MESZ] 00000037 bm.ws.cdi.impl.weld.injection.WebSphereInjectionServicesImpl E CWOWB1000E: Es ist ein CDI-Fehler aufgetreten: The java:comp/env/product_db reference of type javax.persistence.EntityManager for the null component in the product.war module of the product application cannot be resolved.
+[29.09.20, 22:06:16:140 MESZ] 00000037 bm.ws.cdi.impl.weld.injection.WebSphereInjectionServicesImpl E CWOWB1000E: Es ist ein CDI-Fehler aufgetreten: The java:comp/env/product_db reference of type javax.persistence.EntityManager for the null component in the product.war module of the product application cannot be resolved.
+[29.09.20, 22:06:16:141 MESZ] 00000037 .apache.cxf.cxf.core.3.2:1.0.45.cl201020200915-1100(id=207)] W Application {http://product.thi.microservice.io/}ImageService has thrown exception, unwinding now
+org.apache.cxf.interceptor.Fault
+	at org.apache.cxf.service.invoker.AbstractInvoker.createFault(AbstractInvoker.java:162)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:128)
+	at com.ibm.ws.jaxrs20.server.LibertyJaxRsInvoker.invoke(LibertyJaxRsInvoker.java:273)
+	at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:210)
+	at com.ibm.ws.jaxrs20.server.LibertyJaxRsInvoker.invoke(LibertyJaxRsInvoker.java:444)
+	at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:112)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:61)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:99)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:318)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:123)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:273)
+	at com.ibm.ws.jaxrs20.endpoint.AbstractJaxRsWebEndpoint.invoke(AbstractJaxRsWebEndpoint.java:136)
+	at com.ibm.websphere.jaxrs.server.IBMRestServlet.handleRequest(IBMRestServlet.java:146)
+	at com.ibm.websphere.jaxrs.server.IBMRestServlet.doGet(IBMRestServlet.java:112)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:686)
+	at com.ibm.websphere.jaxrs.server.IBMRestServlet.service(IBMRestServlet.java:96)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.service(ServletWrapper.java:1230)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:729)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:426)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters(WebAppFilterManager.java:1226)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters(WebAppFilterManager.java:1010)
+	at com.ibm.ws.webcontainer.servlet.CacheServletWrapper.handleRequest(CacheServletWrapper.java:75)
+	at com.ibm.ws.webcontainer40.servlet.CacheServletWrapper40.handleRequest(CacheServletWrapper40.java:83)
+	at com.ibm.ws.webcontainer.WebContainer.handleRequest(WebContainer.java:936)
+	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.run(DynamicVirtualHost.java:279)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink$TaskWrapper.run(HttpDispatcherLink.java:1134)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.wrapHandlerAndExecute(HttpDispatcherLink.java:415)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.ready(HttpDispatcherLink.java:374)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleDiscrimination(HttpInboundLink.java:577)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleNewRequest(HttpInboundLink.java:511)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.processRequest(HttpInboundLink.java:359)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.ready(HttpInboundLink.java:326)
+	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.sendToDiscriminators(NewConnectionInitialReadCallback.java:167)
+	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.complete(NewConnectionInitialReadCallback.java:75)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.requestComplete(WorkQueueManager.java:504)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.attemptIO(WorkQueueManager.java:574)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.workerRun(WorkQueueManager.java:958)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager$Worker.run(WorkQueueManager.java:1047)
+	at com.ibm.ws.threading.internal.ExecutorServiceImpl$RunnableWrapper.run(ExecutorServiceImpl.java:239)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: java.lang.NullPointerException
+	at io.microservice.thi.product.DAO.ProductDAO.readAllProducts(ProductDAO.java:34)
+	at io.microservice.thi.product.DAO.ProductDAO$Proxy$_$$_WeldClientProxy.readAllProducts(Unknown Source)
+	at io.microservice.thi.product.ProductService.getProducts(ProductService.java:116)
+	at io.microservice.thi.product.ProductService$Proxy$_$$_WeldSubclass.getProducts$$super(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor711.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.jboss.weld.interceptor.proxy.TerminalAroundInvokeInvocationContext.proceedInternal(TerminalAroundInvokeInvocationContext.java:51)
+	at org.jboss.weld.interceptor.proxy.AroundInvokeInvocationContext.proceed(AroundInvokeInvocationContext.java:78)
+	at com.ibm.tx.jta.cdi.interceptors.TransactionalInterceptor$1.run(TransactionalInterceptor.java:137)
+	at com.ibm.ws.uow.embeddable.EmbeddableUOWManagerImpl.runUnderCurrentUOW(EmbeddableUOWManagerImpl.java:1077)
+	at com.ibm.ws.uow.embeddable.EmbeddableUOWManagerImpl.runUnderNewUOW(EmbeddableUOWManagerImpl.java:1040)
+	at com.ibm.ws.uow.embeddable.EmbeddableUOWManagerImpl.runUnderUOW(EmbeddableUOWManagerImpl.java:1013)
+	at com.ibm.tx.jta.cdi.interceptors.TransactionalInterceptor.runUnderUOWManagingEnablement(TransactionalInterceptor.java:151)
+	at com.ibm.tx.jta.cdi.interceptors.Required.required(Required.java:40)
+	at jdk.internal.reflect.GeneratedMethodAccessor710.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.jboss.weld.interceptor.reader.SimpleInterceptorInvocation$SimpleMethodInvocation.invoke(SimpleInterceptorInvocation.java:73)
+	at org.jboss.weld.interceptor.proxy.InterceptorMethodHandler.executeAroundInvoke(InterceptorMethodHandler.java:84)
+	at org.jboss.weld.interceptor.proxy.InterceptorMethodHandler.executeInterception(InterceptorMethodHandler.java:72)
+	at org.jboss.weld.interceptor.proxy.InterceptorMethodHandler.invoke(InterceptorMethodHandler.java:56)
+	at org.jboss.weld.bean.proxy.CombinedInterceptorAndDecoratorStackMethodHandler.invoke(CombinedInterceptorAndDecoratorStackMethodHandler.java:79)
+	at org.jboss.weld.bean.proxy.CombinedInterceptorAndDecoratorStackMethodHandler.invoke(CombinedInterceptorAndDecoratorStackMethodHandler.java:68)
+	at io.microservice.thi.product.ProductService$Proxy$_$$_WeldSubclass.getProducts(Unknown Source)
+	at io.microservice.thi.product.ProductService$Proxy$_$$_WeldClientProxy.getProducts(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor709.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at com.ibm.ws.jaxrs20.cdi.component.JaxRsFactoryImplicitBeanCDICustomizer.serviceInvoke(JaxRsFactoryImplicitBeanCDICustomizer.java:342)
+	at com.ibm.ws.jaxrs20.server.LibertyJaxRsServerFactoryBean.performInvocation(LibertyJaxRsServerFactoryBean.java:641)
+	at com.ibm.ws.jaxrs20.server.LibertyJaxRsInvoker.performInvocation(LibertyJaxRsInvoker.java:160)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)
+	... 40 more
+
+[29.09.20, 22:06:16:143 MESZ] 00000037 .apache.cxf.cxf.core.3.2:1.0.45.cl201020200915-1100(id=207)] W Exception in handleFault on interceptor org.apache.cxf.jaxrs.interceptor.JAXRSDefaultFaultOutInterceptor@199040d9
+org.apache.cxf.interceptor.Fault
+	at org.apache.cxf.service.invoker.AbstractInvoker.createFault(AbstractInvoker.java:162)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:128)
+	at com.ibm.ws.jaxrs20.server.LibertyJaxRsInvoker.invoke(LibertyJaxRsInvoker.java:273)
+	at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:210)
+	at com.ibm.ws.jaxrs20.server.LibertyJaxRsInvoker.invoke(LibertyJaxRsInvoker.java:444)
+	at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:112)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:61)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:99)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:318)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:123)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:273)
+	at com.ibm.ws.jaxrs20.endpoint.AbstractJaxRsWebEndpoint.invoke(AbstractJaxRsWebEndpoint.java:136)
+	at com.ibm.websphere.jaxrs.server.IBMRestServlet.handleRequest(IBMRestServlet.java:146)
+	at com.ibm.websphere.jaxrs.server.IBMRestServlet.doGet(IBMRestServlet.java:112)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:686)
+	at com.ibm.websphere.jaxrs.server.IBMRestServlet.service(IBMRestServlet.java:96)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.service(ServletWrapper.java:1230)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:729)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:426)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters(WebAppFilterManager.java:1226)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters(WebAppFilterManager.java:1010)
+	at com.ibm.ws.webcontainer.servlet.CacheServletWrapper.handleRequest(CacheServletWrapper.java:75)
+	at com.ibm.ws.webcontainer40.servlet.CacheServletWrapper40.handleRequest(CacheServletWrapper40.java:83)
+	at com.ibm.ws.webcontainer.WebContainer.handleRequest(WebContainer.java:936)
+	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.run(DynamicVirtualHost.java:279)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink$TaskWrapper.run(HttpDispatcherLink.java:1134)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.wrapHandlerAndExecute(HttpDispatcherLink.java:415)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.ready(HttpDispatcherLink.java:374)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleDiscrimination(HttpInboundLink.java:577)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleNewRequest(HttpInboundLink.java:511)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.processRequest(HttpInboundLink.java:359)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.ready(HttpInboundLink.java:326)
+	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.sendToDiscriminators(NewConnectionInitialReadCallback.java:167)
+	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.complete(NewConnectionInitialReadCallback.java:75)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.requestComplete(WorkQueueManager.java:504)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.attemptIO(WorkQueueManager.java:574)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.workerRun(WorkQueueManager.java:958)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager$Worker.run(WorkQueueManager.java:1047)
+	at com.ibm.ws.threading.internal.ExecutorServiceImpl$RunnableWrapper.run(ExecutorServiceImpl.java:239)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: java.lang.NullPointerException
+	at io.microservice.thi.product.DAO.ProductDAO.readAllProducts(ProductDAO.java:34)
+	at io.microservice.thi.product.DAO.ProductDAO$Proxy$_$$_WeldClientProxy.readAllProducts(Unknown Source)
+	at io.microservice.thi.product.ProductService.getProducts(ProductService.java:116)
+	at io.microservice.thi.product.ProductService$Proxy$_$$_WeldSubclass.getProducts$$super(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor711.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.jboss.weld.interceptor.proxy.TerminalAroundInvokeInvocationContext.proceedInternal(TerminalAroundInvokeInvocationContext.java:51)
+	at org.jboss.weld.interceptor.proxy.AroundInvokeInvocationContext.proceed(AroundInvokeInvocationContext.java:78)
+	at com.ibm.tx.jta.cdi.interceptors.TransactionalInterceptor$1.run(TransactionalInterceptor.java:137)
+	at com.ibm.ws.uow.embeddable.EmbeddableUOWManagerImpl.runUnderCurrentUOW(EmbeddableUOWManagerImpl.java:1077)
+	at com.ibm.ws.uow.embeddable.EmbeddableUOWManagerImpl.runUnderNewUOW(EmbeddableUOWManagerImpl.java:1040)
+	at com.ibm.ws.uow.embeddable.EmbeddableUOWManagerImpl.runUnderUOW(EmbeddableUOWManagerImpl.java:1013)
+	at com.ibm.tx.jta.cdi.interceptors.TransactionalInterceptor.runUnderUOWManagingEnablement(TransactionalInterceptor.java:151)
+	at com.ibm.tx.jta.cdi.interceptors.Required.required(Required.java:40)
+	at jdk.internal.reflect.GeneratedMethodAccessor710.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.jboss.weld.interceptor.reader.SimpleInterceptorInvocation$SimpleMethodInvocation.invoke(SimpleInterceptorInvocation.java:73)
+	at org.jboss.weld.interceptor.proxy.InterceptorMethodHandler.executeAroundInvoke(InterceptorMethodHandler.java:84)
+	at org.jboss.weld.interceptor.proxy.InterceptorMethodHandler.executeInterception(InterceptorMethodHandler.java:72)
+	at org.jboss.weld.interceptor.proxy.InterceptorMethodHandler.invoke(InterceptorMethodHandler.java:56)
+	at org.jboss.weld.bean.proxy.CombinedInterceptorAndDecoratorStackMethodHandler.invoke(CombinedInterceptorAndDecoratorStackMethodHandler.java:79)
+	at org.jboss.weld.bean.proxy.CombinedInterceptorAndDecoratorStackMethodHandler.invoke(CombinedInterceptorAndDecoratorStackMethodHandler.java:68)
+	at io.microservice.thi.product.ProductService$Proxy$_$$_WeldSubclass.getProducts(Unknown Source)
+	at io.microservice.thi.product.ProductService$Proxy$_$$_WeldClientProxy.getProducts(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor709.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at com.ibm.ws.jaxrs20.cdi.component.JaxRsFactoryImplicitBeanCDICustomizer.serviceInvoke(JaxRsFactoryImplicitBeanCDICustomizer.java:342)
+	at com.ibm.ws.jaxrs20.server.LibertyJaxRsServerFactoryBean.performInvocation(LibertyJaxRsServerFactoryBean.java:641)
+	at com.ibm.ws.jaxrs20.server.LibertyJaxRsInvoker.performInvocation(LibertyJaxRsInvoker.java:160)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)
+	... 40 more
+
+[29.09.20, 22:06:16:145 MESZ] 00000037 .apache.cxf.cxf.core.3.2:1.0.45.cl201020200915-1100(id=207)] E An unexpected error occurred during error handling. No further error processing will occur.
+org.apache.cxf.interceptor.Fault
+	at org.apache.cxf.service.invoker.AbstractInvoker.createFault(AbstractInvoker.java:162)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:128)
+	at com.ibm.ws.jaxrs20.server.LibertyJaxRsInvoker.invoke(LibertyJaxRsInvoker.java:273)
+	at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:210)
+	at com.ibm.ws.jaxrs20.server.LibertyJaxRsInvoker.invoke(LibertyJaxRsInvoker.java:444)
+	at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:112)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:61)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:99)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:318)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:123)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:273)
+	at com.ibm.ws.jaxrs20.endpoint.AbstractJaxRsWebEndpoint.invoke(AbstractJaxRsWebEndpoint.java:136)
+	at com.ibm.websphere.jaxrs.server.IBMRestServlet.handleRequest(IBMRestServlet.java:146)
+	at com.ibm.websphere.jaxrs.server.IBMRestServlet.doGet(IBMRestServlet.java:112)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:686)
+	at com.ibm.websphere.jaxrs.server.IBMRestServlet.service(IBMRestServlet.java:96)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.service(ServletWrapper.java:1230)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:729)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:426)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters(WebAppFilterManager.java:1226)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters(WebAppFilterManager.java:1010)
+	at com.ibm.ws.webcontainer.servlet.CacheServletWrapper.handleRequest(CacheServletWrapper.java:75)
+	at com.ibm.ws.webcontainer40.servlet.CacheServletWrapper40.handleRequest(CacheServletWrapper40.java:83)
+	at com.ibm.ws.webcontainer.WebContainer.handleRequest(WebContainer.java:936)
+	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.run(DynamicVirtualHost.java:279)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink$TaskWrapper.run(HttpDispatcherLink.java:1134)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.wrapHandlerAndExecute(HttpDispatcherLink.java:415)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.ready(HttpDispatcherLink.java:374)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleDiscrimination(HttpInboundLink.java:577)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleNewRequest(HttpInboundLink.java:511)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.processRequest(HttpInboundLink.java:359)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.ready(HttpInboundLink.java:326)
+	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.sendToDiscriminators(NewConnectionInitialReadCallback.java:167)
+	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.complete(NewConnectionInitialReadCallback.java:75)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.requestComplete(WorkQueueManager.java:504)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.attemptIO(WorkQueueManager.java:574)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.workerRun(WorkQueueManager.java:958)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager$Worker.run(WorkQueueManager.java:1047)
+	at com.ibm.ws.threading.internal.ExecutorServiceImpl$RunnableWrapper.run(ExecutorServiceImpl.java:239)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: java.lang.NullPointerException
+	at io.microservice.thi.product.DAO.ProductDAO.readAllProducts(ProductDAO.java:34)
+	at io.microservice.thi.product.DAO.ProductDAO$Proxy$_$$_WeldClientProxy.readAllProducts(Unknown Source)
+	at io.microservice.thi.product.ProductService.getProducts(ProductService.java:116)
+	at io.microservice.thi.product.ProductService$Proxy$_$$_WeldSubclass.getProducts$$super(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor711.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.jboss.weld.interceptor.proxy.TerminalAroundInvokeInvocationContext.proceedInternal(TerminalAroundInvokeInvocationContext.java:51)
+	at org.jboss.weld.interceptor.proxy.AroundInvokeInvocationContext.proceed(AroundInvokeInvocationContext.java:78)
+	at com.ibm.tx.jta.cdi.interceptors.TransactionalInterceptor$1.run(TransactionalInterceptor.java:137)
+	at com.ibm.ws.uow.embeddable.EmbeddableUOWManagerImpl.runUnderCurrentUOW(EmbeddableUOWManagerImpl.java:1077)
+	at com.ibm.ws.uow.embeddable.EmbeddableUOWManagerImpl.runUnderNewUOW(EmbeddableUOWManagerImpl.java:1040)
+	at com.ibm.ws.uow.embeddable.EmbeddableUOWManagerImpl.runUnderUOW(EmbeddableUOWManagerImpl.java:1013)
+	at com.ibm.tx.jta.cdi.interceptors.TransactionalInterceptor.runUnderUOWManagingEnablement(TransactionalInterceptor.java:151)
+	at com.ibm.tx.jta.cdi.interceptors.Required.required(Required.java:40)
+	at jdk.internal.reflect.GeneratedMethodAccessor710.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.jboss.weld.interceptor.reader.SimpleInterceptorInvocation$SimpleMethodInvocation.invoke(SimpleInterceptorInvocation.java:73)
+	at org.jboss.weld.interceptor.proxy.InterceptorMethodHandler.executeAroundInvoke(InterceptorMethodHandler.java:84)
+	at org.jboss.weld.interceptor.proxy.InterceptorMethodHandler.executeInterception(InterceptorMethodHandler.java:72)
+	at org.jboss.weld.interceptor.proxy.InterceptorMethodHandler.invoke(InterceptorMethodHandler.java:56)
+	at org.jboss.weld.bean.proxy.CombinedInterceptorAndDecoratorStackMethodHandler.invoke(CombinedInterceptorAndDecoratorStackMethodHandler.java:79)
+	at org.jboss.weld.bean.proxy.CombinedInterceptorAndDecoratorStackMethodHandler.invoke(CombinedInterceptorAndDecoratorStackMethodHandler.java:68)
+	at io.microservice.thi.product.ProductService$Proxy$_$$_WeldSubclass.getProducts(Unknown Source)
+	at io.microservice.thi.product.ProductService$Proxy$_$$_WeldClientProxy.getProducts(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor709.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at com.ibm.ws.jaxrs20.cdi.component.JaxRsFactoryImplicitBeanCDICustomizer.serviceInvoke(JaxRsFactoryImplicitBeanCDICustomizer.java:342)
+	at com.ibm.ws.jaxrs20.server.LibertyJaxRsServerFactoryBean.performInvocation(LibertyJaxRsServerFactoryBean.java:641)
+	at com.ibm.ws.jaxrs20.server.LibertyJaxRsInvoker.performInvocation(LibertyJaxRsInvoker.java:160)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)
+	... 40 more
+
+[29.09.20, 22:06:16:146 MESZ] 00000037 com.ibm.ws.webcontainer.util.ApplicationErrorUtils           E SRVE0777E: Es wurde eine Ausnahme von der Anwendungsklasse 'io.microservice.thi.product.DAO.ProductDAO.readAllProducts:34' ausgelöst.
+java.lang.NullPointerException
+	at io.microservice.thi.product.DAO.ProductDAO.readAllProducts(ProductDAO.java:34)
+	at io.microservice.thi.product.DAO.ProductDAO$Proxy$_$$_WeldClientProxy.readAllProducts(Unknown Source)
+	at io.microservice.thi.product.ProductService.getProducts(ProductService.java:116)
+	at io.microservice.thi.product.ProductService$Proxy$_$$_WeldSubclass.getProducts$$super(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor711.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.jboss.weld.interceptor.proxy.TerminalAroundInvokeInvocationContext.proceedInternal(TerminalAroundInvokeInvocationContext.java:51)
+	at org.jboss.weld.interceptor.proxy.AroundInvokeInvocationContext.proceed(AroundInvokeInvocationContext.java:78)
+	at com.ibm.tx.jta.cdi.interceptors.TransactionalInterceptor$1.run(TransactionalInterceptor.java:137)
+	at com.ibm.ws.uow.embeddable.EmbeddableUOWManagerImpl.runUnderCurrentUOW(EmbeddableUOWManagerImpl.java:1077)
+	at com.ibm.ws.uow.embeddable.EmbeddableUOWManagerImpl.runUnderNewUOW(EmbeddableUOWManagerImpl.java:1040)
+	at com.ibm.ws.uow.embeddable.EmbeddableUOWManagerImpl.runUnderUOW(EmbeddableUOWManagerImpl.java:1013)
+	at com.ibm.tx.jta.cdi.interceptors.TransactionalInterceptor.runUnderUOWManagingEnablement(TransactionalInterceptor.java:151)
+	at com.ibm.tx.jta.cdi.interceptors.Required.required(Required.java:40)
+	at jdk.internal.reflect.GeneratedMethodAccessor710.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.jboss.weld.interceptor.reader.SimpleInterceptorInvocation$SimpleMethodInvocation.invoke(SimpleInterceptorInvocation.java:73)
+	at org.jboss.weld.interceptor.proxy.InterceptorMethodHandler.executeAroundInvoke(InterceptorMethodHandler.java:84)
+	at org.jboss.weld.interceptor.proxy.InterceptorMethodHandler.executeInterception(InterceptorMethodHandler.java:72)
+	at org.jboss.weld.interceptor.proxy.InterceptorMethodHandler.invoke(InterceptorMethodHandler.java:56)
+	at org.jboss.weld.bean.proxy.CombinedInterceptorAndDecoratorStackMethodHandler.invoke(CombinedInterceptorAndDecoratorStackMethodHandler.java:79)
+	at org.jboss.weld.bean.proxy.CombinedInterceptorAndDecoratorStackMethodHandler.invoke(CombinedInterceptorAndDecoratorStackMethodHandler.java:68)
+	at io.microservice.thi.product.ProductService$Proxy$_$$_WeldSubclass.getProducts(Unknown Source)
+	at io.microservice.thi.product.ProductService$Proxy$_$$_WeldClientProxy.getProducts(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor709.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at com.ibm.ws.jaxrs20.cdi.component.JaxRsFactoryImplicitBeanCDICustomizer.serviceInvoke(JaxRsFactoryImplicitBeanCDICustomizer.java:342)
+	at com.ibm.ws.jaxrs20.server.LibertyJaxRsServerFactoryBean.performInvocation(LibertyJaxRsServerFactoryBean.java:641)
+	at com.ibm.ws.jaxrs20.server.LibertyJaxRsInvoker.performInvocation(LibertyJaxRsInvoker.java:160)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)
+	at com.ibm.ws.jaxrs20.server.LibertyJaxRsInvoker.invoke(LibertyJaxRsInvoker.java:273)
+	at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:210)
+	at com.ibm.ws.jaxrs20.server.LibertyJaxRsInvoker.invoke(LibertyJaxRsInvoker.java:444)
+	at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:112)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:61)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:99)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:318)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:123)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:273)
+	at com.ibm.ws.jaxrs20.endpoint.AbstractJaxRsWebEndpoint.invoke(AbstractJaxRsWebEndpoint.java:136)
+	at com.ibm.websphere.jaxrs.server.IBMRestServlet.handleRequest(IBMRestServlet.java:146)
+	at com.ibm.websphere.jaxrs.server.IBMRestServlet.doGet(IBMRestServlet.java:112)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:686)
+	at com.ibm.websphere.jaxrs.server.IBMRestServlet.service(IBMRestServlet.java:96)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.service(ServletWrapper.java:1230)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:729)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:426)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters(WebAppFilterManager.java:1226)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters(WebAppFilterManager.java:1010)
+	at com.ibm.ws.webcontainer.servlet.CacheServletWrapper.handleRequest(CacheServletWrapper.java:75)
+	at com.ibm.ws.webcontainer40.servlet.CacheServletWrapper40.handleRequest(CacheServletWrapper40.java:83)
+	at com.ibm.ws.webcontainer.WebContainer.handleRequest(WebContainer.java:936)
+	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.run(DynamicVirtualHost.java:279)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink$TaskWrapper.run(HttpDispatcherLink.java:1134)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.wrapHandlerAndExecute(HttpDispatcherLink.java:415)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.ready(HttpDispatcherLink.java:374)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleDiscrimination(HttpInboundLink.java:577)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleNewRequest(HttpInboundLink.java:511)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.processRequest(HttpInboundLink.java:359)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.ready(HttpInboundLink.java:326)
+	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.sendToDiscriminators(NewConnectionInitialReadCallback.java:167)
+	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.complete(NewConnectionInitialReadCallback.java:75)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.requestComplete(WorkQueueManager.java:504)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.attemptIO(WorkQueueManager.java:574)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.workerRun(WorkQueueManager.java:958)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager$Worker.run(WorkQueueManager.java:1047)
+	at com.ibm.ws.threading.internal.ExecutorServiceImpl$RunnableWrapper.run(ExecutorServiceImpl.java:239)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+[29.09.20, 22:13:31:673 MESZ] 0000003a com.ibm.ws.config.xml.internal.ConfigRefresher               A CWWKG0016I: Die Aktualisierung der Serverkonfiguration wird gestartet.
+[29.09.20, 22:13:31:728 MESZ] 00000053 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Webanwendung entfernt (default_host): http://host.docker.internal:9081/
+[29.09.20, 22:13:31:731 MESZ] 00000053 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [product] [/] [io.microservice.thi.product.ProductApplication]: Löschen erfolgreich.
+[29.09.20, 22:13:31:736 MESZ] 00000062 com.ibm.ws.security.mp.jwt.impl.MicroProfileJwtConfigImpl    I CWWKS5502I: Die MicroProfile-JWT-Konfiguration [myMpJwt] wurde erfolgreich inaktiviert.
+[29.09.20, 22:13:31:758 MESZ] 00000053 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: Die Anwendung product wurde erfolgreich gestoppt.
+[29.09.20, 22:13:31:785 MESZ] 00000035 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0007I: Die Featureaktualisierung wurde gestartet.
+[29.09.20, 22:13:31:831 MESZ] 00000061 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Es wurde automatisch eine Konfigurationsdatei für ein Web-Server-Plug-in für diesen Server unter C:\Users\vib61\Documents\Bachelorarbeit\product-service\target\liberty\wlp\usr\servers\defaultServer\logs\state\plugin-cfg.xml generiert.
+[29.09.20, 22:13:31:836 MESZ] 0000003e com.ibm.ws.tcpchannel.internal.TCPChannel                    I CWWKO0220I: Der TCP-Kanal defaultHttpEndpoint ist auf Host *  (IPv6) an Port 9081 nicht mehr für Anforderungen empfangsbereit.
+[29.09.20, 22:13:31:836 MESZ] 0000003e com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Webanwendung entfernt (default_host): http://host.docker.internal:9081/oidcclient/
+[29.09.20, 22:13:31:837 MESZ] 0000003e com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Webanwendung entfernt (default_host): http://host.docker.internal:9081/jwt/
+[29.09.20, 22:13:31:838 MESZ] 0000003e com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Webanwendung entfernt (default_host): http://host.docker.internal:9081/oauth2/
+[29.09.20, 22:13:32:093 MESZ] 0000003e com.ibm.ws.tcpchannel.internal.TCPPort                       I CWWKO0219I: Der TCP-Kanal defaultHttpEndpoint wurde gestartet und ist jetzt für Anforderungen auf dem Host kubernetes.docker.internal  (IPv4: 127.0.0.1) an Port 9080 empfangsbereit.
+[29.09.20, 22:13:32:233 MESZ] 0000003e com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Webanwendung verfügbar: (default_host): http://localhost:9080/oidcclient/
+[29.09.20, 22:13:32:234 MESZ] 0000003e com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Webanwendung verfügbar: (default_host): http://localhost:9080/jwt/
+[29.09.20, 22:13:32:236 MESZ] 00000035 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Webanwendung entfernt (default_host): http://localhost:9080/jwt/
+[29.09.20, 22:13:32:245 MESZ] 00000035 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Webanwendung entfernt (default_host): http://localhost:9080/oidcclient/
+[29.09.20, 22:13:32:252 MESZ] 0000003e com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Es wurde automatisch eine Konfigurationsdatei für ein Web-Server-Plug-in für diesen Server unter C:\Users\vib61\Documents\Bachelorarbeit\product-service\target\liberty\wlp\usr\servers\defaultServer\logs\state\plugin-cfg.xml generiert.
+[29.09.20, 22:13:32:269 MESZ] 00000028 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Es wurde automatisch eine Konfigurationsdatei für ein Web-Server-Plug-in für diesen Server unter C:\Users\vib61\Documents\Bachelorarbeit\product-service\target\liberty\wlp\usr\servers\defaultServer\logs\state\plugin-cfg.xml generiert.
+[29.09.20, 22:13:32:373 MESZ] 00000035 com.ibm.tx.jta.impl.FailureScopeController                   A WTRN0105I: Der Transaktionsservice wurde ordnungsgemäß beendet. Für keine der Transaktionen muss eine Fehlerbehebung durchgeführt werden.
+[29.09.20, 22:13:32:442 MESZ] 00000035 com.ibm.ws.security.ready.internal.SecurityReadyServiceImpl  I CWWKS0008I: Der Sicherheitsservice ist bereit.
+[29.09.20, 22:13:32:565 MESZ] 00000060 com.ibm.ws.tcpchannel.internal.TCPChannel                    I CWWKO0220I: Der TCP-Kanal defaultHttpEndpoint ist auf Host kubernetes.docker.internal  (IPv4: 127.0.0.1) an Port 9080 nicht mehr für Anforderungen empfangsbereit.
+[29.09.20, 22:13:32:616 MESZ] 00000035 com.ibm.ws.security.mp.jwt.impl.MicroProfileJwtConfigImpl    I CWWKS5502I: Die MicroProfile-JWT-Konfiguration [defaultMpJwt] wurde erfolgreich inaktiviert.
+[29.09.20, 22:13:32:617 MESZ] 00000035 com.ibm.ws.security.mp.jwt.impl.MicroProfileJwtServiceImpl   I CWWKS5502I: Die MicroProfile-JWT-Konfiguration [MicroProfileJwtService] wurde erfolgreich inaktiviert.
+[29.09.20, 22:13:32:623 MESZ] 00000035 .ws.security.mp.jwt.v11.config.impl.MpConfigProxyServiceImpl I CWWKS5777I: Die mpConfigProxy-Konfiguration von MicroProfile JWT Version 1.1 wurde erfolgreich inaktiviert.
+[29.09.20, 22:13:32:687 MESZ] 00000035 com.ibm.ws.security.wim.VMMService                           I CWIMK0010I: Der Service für die Einbindung der Benutzerregistry wurde gestoppt.
+[29.09.20, 22:13:32:730 MESZ] 00000035 ibm.ws.security.authentication.internal.jaas.JAASServiceImpl I CWWKS1124I: Das Verbundauthentifizierungs-Plug-in mit dem Klassennamen NullCollectiveAuthenticationPlugin wurde inaktiviert. 
+[29.09.20, 22:13:32:770 MESZ] 00000035 com.ibm.ws.security.ready.internal.SecurityReadyServiceImpl  I CWWKS0009I: Der Sicherheitsservice wurde gestoppt.
+[29.09.20, 22:13:33:147 MESZ] 00000035 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0013I: Im Server wurden die folgenden Features entfernt: [appSecurity-2.0, cdi-2.0, distributedMap-1.0, el-3.0, federatedRegistry-1.0, jaxrs-2.1, jaxrsClient-2.1, jdbc-4.2, jndi-1.0, jpa-2.2, jpaContainer-2.2, json-1.0, jsonp-1.1, jsp-2.3, jwt-1.0, ldapRegistry-3.0, mpConfig-1.4, mpJwt-1.1, mpRestClient-1.4, oauth-2.0, openidConnectClient-1.0, servlet-4.0, ssl-1.0, transportSecurity-1.0].
+[29.09.20, 22:13:33:147 MESZ] 00000035 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0008I: Die Featureaktualisierung wurde in 1,392 Sekunden durchgeführt.
+[29.09.20, 22:13:33:156 MESZ] 0000003a com.ibm.ws.config.xml.internal.ConfigRefresher               A CWWKG0017I: Die Serverkonfiguration wurde erfolgreich in 1,484 Sekunden aktualisiert.
+[29.09.20, 22:13:37:454 MESZ] 00000053 com.ibm.ws.config.xml.internal.ConfigRefresher               A CWWKG0016I: Die Aktualisierung der Serverkonfiguration wird gestartet.
+[29.09.20, 22:13:37:455 MESZ] 00000053 com.ibm.ws.config.xml.internal.ConfigRefresher               A CWWKG0018I: Die Serverkonfiguration wurde nicht aktualisiert. Es wurden keine funktionalen Änderungen erkannt.
