@@ -1,0 +1,61 @@
+********************************************************************************
+product = Open Liberty 20.0.0.10 (wlp-1.0.45.cl201020200915-1100)
+wlp.install.dir = C:/Users/vib61/Documents/Bachelorarbeit/stock-service/target/liberty/wlp/
+java.home = C:\Users\vib61\.jdks\openjdk-14.0.2
+java.version = 14.0.2
+java.runtime = OpenJDK Runtime Environment (14.0.2+12-46)
+os = Windows 10 (10.0; amd64) (de_DE)
+process = 3920@DESKTOP-AH9LM01
+********************************************************************************
+[29.09.20, 21:28:23:364 MESZ] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0001I: Der Server defaultServer wurde gestartet.
+[29.09.20, 21:28:23:866 MESZ] 0000001a com.ibm.ws.config.xml.internal.ServerXMLConfiguration        A CWWKG0093A: Konfigurations-Drop-in-Ressource wird verarbeitet: C:\Users\vib61\Documents\Bachelorarbeit\stock-service\target\liberty\wlp\usr\servers\defaultServer\configDropins\overrides\liberty-plugin-variable-config.xml
+[29.09.20, 21:28:24:047 MESZ] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           I CWWKE0002I: Der Kernel wurde nach  0,852 Sekunden gestartet.
+[29.09.20, 21:28:24:097 MESZ] 00000025 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0007I: Die Featureaktualisierung wurde gestartet.
+[29.09.20, 21:28:24:882 MESZ] 0000001c .apache.cxf.cxf.core.3.2:1.0.45.cl201020200915-1100(id=149)] I Aries Blueprint packages not available. So namespaces will not be registered
+[29.09.20, 21:28:24:883 MESZ] 0000001a .apache.cxf.cxf.core.3.2:1.0.45.cl201020200915-1100(id=149)] I Aries Blueprint packages not available. So namespaces will not be registered
+[29.09.20, 21:28:25:006 MESZ] 0000001a com.ibm.ws.app.manager.internal.monitor.DropinMonitor        A CWWKZ0058I: dropins auf Anwendungen überwachen.
+[29.09.20, 21:28:25:596 MESZ] 00000030 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Die Anwendung productstock wird gestartet.
+[29.09.20, 21:28:25:597 MESZ] 00000030 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: Die Anwendung productstock verwendet die lose Anwendungsdefinition an der Position C:\Users\vib61\Documents\Bachelorarbeit\stock-service\target\liberty\wlp\usr\servers\defaultServer\apps\productstock.war.xml.
+[29.09.20, 21:28:26:403 MESZ] 00000030 com.ibm.ws.jca.cm.ConnectorService                           I J2CA8050I: Es sollte ein Authentifizierungsalias verwendet werden, anstatt einen Benutzernamen und ein Kennwort in dataSource[product_stock_db] zu definieren.
+[29.09.20, 21:28:26:510 MESZ] 00000030 com.ibm.ws.recoverylog.spi.RecoveryDirectorImpl              I CWRLS0010I: Die Wiederherstellung für den lokalen WebSphere-Server (defaultServer) wird durchgeführt.
+[29.09.20, 21:28:26:537 MESZ] 0000003b com.ibm.ws.recoverylog.spi.LogHandle                         I CWRLS0007I: Es wurden keine Wiederherstellungsprotokolldateien in C:/Users/vib61/Documents/Bachelorarbeit/stock-service/target/liberty/wlp/usr/servers/defaultServer/tranlog\tranlog gefunden. Das Wiederherstellungsprotokoll wird neu gestartet.
+[29.09.20, 21:28:26:538 MESZ] 0000003b com.ibm.ws.recoverylog.spi.LogFileHandle                     I CWRLS0006I: Die neue Wiederherstellungsprotokolldatei C:/Users/vib61/Documents/Bachelorarbeit/stock-service/target/liberty/wlp/usr/servers/defaultServer/tranlog\tranlog\log1 wird erstellt.
+[29.09.20, 21:28:26:544 MESZ] 0000003b com.ibm.ws.recoverylog.spi.LogFileHandle                     I CWRLS0006I: Die neue Wiederherstellungsprotokolldatei C:/Users/vib61/Documents/Bachelorarbeit/stock-service/target/liberty/wlp/usr/servers/defaultServer/tranlog\tranlog\log2 wird erstellt.
+[29.09.20, 21:28:26:563 MESZ] 0000003b com.ibm.ws.recoverylog.spi.LogHandle                         I CWRLS0007I: Es wurden keine Wiederherstellungsprotokolldateien in C:/Users/vib61/Documents/Bachelorarbeit/stock-service/target/liberty/wlp/usr/servers/defaultServer/tranlog\partnerlog gefunden. Das Wiederherstellungsprotokoll wird neu gestartet.
+[29.09.20, 21:28:26:564 MESZ] 0000003b com.ibm.ws.recoverylog.spi.LogFileHandle                     I CWRLS0006I: Die neue Wiederherstellungsprotokolldatei C:/Users/vib61/Documents/Bachelorarbeit/stock-service/target/liberty/wlp/usr/servers/defaultServer/tranlog\partnerlog\log1 wird erstellt.
+[29.09.20, 21:28:26:565 MESZ] 0000003b com.ibm.ws.recoverylog.spi.LogFileHandle                     I CWRLS0006I: Die neue Wiederherstellungsprotokolldatei C:/Users/vib61/Documents/Bachelorarbeit/stock-service/target/liberty/wlp/usr/servers/defaultServer/tranlog\partnerlog\log2 wird erstellt.
+[29.09.20, 21:28:26:598 MESZ] 00000030 com.ibm.ws.recoverylog.spi.RecoveryDirectorImpl              I CWRLS0012I: Alle persistenten Services wurden angewiesen, die Wiederherstellung für den WebSphere-Server (defaultServer) durchzuführen.
+[29.09.20, 21:28:26:598 MESZ] 0000003b com.ibm.tx.jta.impl.RecoveryManager                          I WTRN0135I: Der Transaktionsservice stellt keine Transaktionen wieder her.
+[29.09.20, 21:28:26:895 MESZ] 00000030 com.ibm.ws.session.WASSessionCore                            I SESN8501I: Der Sitzungsmanager konnte keine persistente Speicherposition finden. HttpSession-Objekte werden im lokalen Anwendungsserverspeicher gespeichert.
+[29.09.20, 21:28:26:918 MESZ] 00000030 org.jboss.weld.Version                                       I WELD-000900: 3.1.4 (Final)
+[29.09.20, 21:28:27:744 MESZ] 00000030 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Das Webmodul wird geladen: Liberty Project.
+[29.09.20, 21:28:27:747 MESZ] 00000030 com.ibm.ws.webcontainer                                      I SRVE0250I: Das Webmodul Liberty Project wurde an default_host gebunden.
+[29.09.20, 21:28:27:748 MESZ] 00000030 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Webanwendung verfügbar: (default_host): http://host.docker.internal:9082/
+[29.09.20, 21:28:27:766 MESZ] 00000036 com.ibm.ws.session.WASSessionCore                            I SESN0176I: Es wird ein neuer Sitzungskontext für den Anwendungsschlüssel default_host/ erstellt.
+[29.09.20, 21:28:27:771 MESZ] 00000036 com.ibm.ws.util                                              I SESN0172I: Der Sitzungsmanager verwendet die SecureRandom-Java-Standardimplementierung für die Generierung von Sitzungs-IDs.
+[29.09.20, 21:28:27:802 MESZ] 00000036 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0001I: Die Anwendung productstock ist nach 2,206 Sekunden gestartet.
+[29.09.20, 21:28:27:822 MESZ] 00000025 com.ibm.ws.tcpchannel.internal.TCPPort                       I CWWKO0219I: Der TCP-Kanal defaultHttpEndpoint wurde gestartet und ist jetzt für Anforderungen auf dem Host *  (IPv6) an Port 9082 empfangsbereit.
+[29.09.20, 21:28:27:850 MESZ] 00000025 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0012I: Im Server wurden die folgenden Features installiert: [cdi-2.0, jaxrs-2.1, jaxrsClient-2.1, jdbc-4.2, jndi-1.0, jpa-2.2, jpaContainer-2.2, jsonp-1.1, mpConfig-1.4, mpRestClient-1.4, servlet-4.0].
+[29.09.20, 21:28:27:851 MESZ] 00000025 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0008I: Die Featureaktualisierung wurde in 3,804 Sekunden durchgeführt.
+[29.09.20, 21:28:27:851 MESZ] 00000025 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0011I: Der Server defaultServer ist für die Ausführung von Smarter Planet bereit. Der Server defaultServer ist nach 4,657 Sekunden gestartet.
+[29.09.20, 21:28:27:944 MESZ] 00000037 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Es wurde automatisch eine Konfigurationsdatei für ein Web-Server-Plug-in für diesen Server unter C:\Users\vib61\Documents\Bachelorarbeit\stock-service\target\liberty\wlp\usr\servers\defaultServer\logs\state\plugin-cfg.xml generiert.
+[29.09.20, 21:28:30:207 MESZ] 0000002e com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Webanwendung entfernt (default_host): http://host.docker.internal:9082/
+[29.09.20, 21:28:30:225 MESZ] 0000002e com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: Die Anwendung productstock wurde erfolgreich gestoppt.
+[29.09.20, 21:28:30:230 MESZ] 0000002e com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Die Anwendung productstock wird gestartet.
+[29.09.20, 21:28:30:230 MESZ] 0000002e bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: Die Anwendung productstock verwendet die lose Anwendungsdefinition an der Position C:\Users\vib61\Documents\Bachelorarbeit\stock-service\target\liberty\wlp\usr\servers\defaultServer\apps\productstock.war.xml.
+[29.09.20, 21:28:30:254 MESZ] 00000035 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Es wurde automatisch eine Konfigurationsdatei für ein Web-Server-Plug-in für diesen Server unter C:\Users\vib61\Documents\Bachelorarbeit\stock-service\target\liberty\wlp\usr\servers\defaultServer\logs\state\plugin-cfg.xml generiert.
+[29.09.20, 21:28:30:569 MESZ] 0000002e com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Das Webmodul wird geladen: Liberty Project.
+[29.09.20, 21:28:30:570 MESZ] 0000002e com.ibm.ws.webcontainer                                      I SRVE0250I: Das Webmodul Liberty Project wurde an default_host gebunden.
+[29.09.20, 21:28:30:570 MESZ] 0000002e com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Webanwendung verfügbar: (default_host): http://host.docker.internal:9082/
+[29.09.20, 21:28:30:571 MESZ] 0000003d com.ibm.ws.session.WASSessionCore                            I SESN0176I: Es wird ein neuer Sitzungskontext für den Anwendungsschlüssel default_host/ erstellt.
+[29.09.20, 21:28:30:571 MESZ] 0000003d com.ibm.ws.util                                              I SESN0172I: Der Sitzungsmanager verwendet die SecureRandom-Java-Standardimplementierung für die Generierung von Sitzungs-IDs.
+[29.09.20, 21:28:30:573 MESZ] 0000003d com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: Die Anwendung productstock wurde nach 0,343 Sekunden aktualisiert.
+[29.09.20, 21:28:30:608 MESZ] 00000027 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Es wurde automatisch eine Konfigurationsdatei für ein Web-Server-Plug-in für diesen Server unter C:\Users\vib61\Documents\Bachelorarbeit\stock-service\target\liberty\wlp\usr\servers\defaultServer\logs\state\plugin-cfg.xml generiert.
+[29.09.20, 21:29:10:514 MESZ] 00000039 .apache.cxf.cxf.core.3.2:1.0.45.cl201020200915-1100(id=149)] I Setting the server's publish address to be /productstock/
+[29.09.20, 21:29:10:566 MESZ] 00000039 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [productstock] [/] [io.microservice.thi.productstock.ProductStockApplication]: Initialisierung erfolgreich.
+[29.09.20, 21:29:10:690 MESZ] 00000039 eclipselink                                                  I CWWJP9990I: [eclipselink] EclipseLink Version: Eclipse Persistence Services - 2.7.7.v20200504-69f2c2b80d
+[29.09.20, 21:29:10:889 MESZ] 00000039 com.ibm.ws.rsadapter.impl.DatabaseHelper                     I DSRA8203I: Produktname der Database: PostgreSQL
+[29.09.20, 21:29:10:890 MESZ] 00000039 com.ibm.ws.rsadapter.impl.DatabaseHelper                     I DSRA8204I: Produktversion der Database: 12.4 (Debian 12.4-1.pgdg100+1)
+[29.09.20, 21:29:10:891 MESZ] 00000039 com.ibm.ws.rsadapter.impl.DatabaseHelper                     I DSRA8205I: Name des JDBC-Treibers: PostgreSQL JDBC Driver
+[29.09.20, 21:29:10:891 MESZ] 00000039 com.ibm.ws.rsadapter.impl.DatabaseHelper                     I DSRA8206I: Version des JDBC-Treibers: 42.2.14
+[29.09.20, 21:29:10:988 MESZ] 00000039 eclipselink.server                                           W CWWJP9991W: [eclipselink.server] MBean-Server wurde nicht gefunden: null or empty List returned from MBeanServerFactory.findMBeanServer(null)

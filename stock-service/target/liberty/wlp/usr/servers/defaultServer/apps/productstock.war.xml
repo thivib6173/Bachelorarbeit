@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archive>
+    <dir sourceOnDisk="C:\Users\vib61\Documents\Bachelorarbeit\stock-service\src\main\webapp" targetInArchive="/"/>
+    <dir sourceOnDisk="C:\Users\vib61\Documents\Bachelorarbeit\stock-service\target\classes" targetInArchive="/WEB-INF/classes"/>
+    <file sourceOnDisk="C:\Users\vib61\.m2\repository\org\apache\commons\commons-lang3\3.10\commons-lang3-3.10.jar" targetInArchive="/WEB-INF/lib/commons-lang3-3.10.jar"/>
+    <file sourceOnDisk="C:\Users\vib61\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.11.1\jackson-databind-2.11.1.jar" targetInArchive="/WEB-INF/lib/jackson-databind-2.11.1.jar"/>
+    <file sourceOnDisk="C:\Users\vib61\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.11.1\jackson-annotations-2.11.1.jar" targetInArchive="/WEB-INF/lib/jackson-annotations-2.11.1.jar"/>
+    <file sourceOnDisk="C:\Users\vib61\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.11.1\jackson-core-2.11.1.jar" targetInArchive="/WEB-INF/lib/jackson-core-2.11.1.jar"/>
+    <file sourceOnDisk="C:\Users\vib61\Documents\Bachelorarbeit\stock-service\target\tmp\META-INF\MANIFEST.MF" targetInArchive="/META-INF/MANIFEST.MF"/>
+</archive>

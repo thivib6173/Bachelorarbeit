@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/development" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8cc20f78-d8df-4ccc-88e2-5f095f23bf34" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/liberty/config/keycloack.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/webapp/META-INF/productservice-public-key.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/webapp/WEB-INF/beans.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/product_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/product_war.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/product_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/product_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f09980b0-eb87-48b9-b83f-ed07883b6460.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f09980b0-eb87-48b9-b83f-ed07883b6460.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f09980b0-eb87-48b9-b83f-ed07883b6460/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f09980b0-eb87-48b9-b83f-ed07883b6460/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/product.iml" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/product.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/main/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/resources/META-INF/persistance.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/io/microservice/thi/product/ProductApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/io/microservice/thi/product/ProductApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/io/microservice/thi/product/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/io/microservice/thi/product/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/main/liberty/config/server.xml" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/liberty/config/server.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/main/resources/META-INF/microprofile-config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/main/resources/META-INF/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/main/resources/META-INF/publicKey.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/main/webapp/META-INF/microprofile-config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/webapp/META-INF/microprofile-config.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="development" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="KubernetesApiPersistence">
+    <option name="context" value="docker-desktop" />
+    <option name="namespace" value="default" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.1.2\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1hxEQW2bpGWFPWGm8a8AOEGap6b" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/product-service/src/main/resources/META-INF" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+    <property name="settings.editor.splitter.proportion" value="0.24729392" />
+    <property name="ts.external.directory.path" value="C:\Users\vib61\Documents\Bachelorarbeit\frontend\node_modules\typescript\lib" />
+    <property name="tslint.code.style.apply.dismiss" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\vib61\Documents\Bachelorarbeit\product-service\src\main\resources\META-INF" />
+      <recent name="C:\Users\vib61\Documents\Bachelorarbeit\product-service\src\main\webapp\WEB-INF" />
+      <recent name="C:\Users\vib61\Documents\Bachelorarbeit\frontend\src" />
+      <recent name="C:\Users\vib61\Documents\Bachelorarbeit\frontend\src\app" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\vib61\Documents\Bachelorarbeit\frontend\src" />
+      <recent name="C:\Users\vib61\Documents\Bachelorarbeit\frontend" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.Angular CLI Server (frontend)">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="E2E Tests (frontend)" type="JavaScriptTestRunnerProtractor">
+      <config-file value="$PROJECT_DIR$/frontend/e2e/protractor.conf.js" />
+      <node-interpreter value="project" />
+      <protractor-options value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular Application (frontend)" type="JavascriptDebugType" uri="http://localhost:4200">
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular CLI Server (frontend)" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/frontend/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/frontend/package-lock.json" />
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8cc20f78-d8df-4ccc-88e2-5f095f23bf34" name="Default Changelist" comment="" />
+      <created>1600944328052</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600944328052</updated>
+      <workItem from="1600944329600" duration="3842000" />
+      <workItem from="1601029084259" duration="56000" />
+      <workItem from="1601029182274" duration="611000" />
+      <workItem from="1601034037194" duration="1479000" />
+      <workItem from="1601035867683" duration="7509000" />
+      <workItem from="1601273502992" duration="302000" />
+      <workItem from="1601273936489" duration="10307000" />
+      <workItem from="1601387020033" duration="5057000" />
+      <workItem from="1601394871190" duration="83000" />
+      <workItem from="1601395047745" duration="2000" />
+      <workItem from="1601400932288" duration="4638000" />
+      <workItem from="1601406404158" duration="3956000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/development" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1155" y="567" key="#Assign_Data_Sources" timestamp="1601276568378">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1155" y="567" key="#Assign_Data_Sources/0.0.2560.1400/2560.51.1920.1040@0.0.2560.1400" timestamp="1601276568378" />
+    <state x="872" y="350" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600947688518">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="872" y="350" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400/2560.51.1920.1040@0.0.2560.1400" timestamp="1600947688518" />
+    <state x="949" y="483" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601393645018">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="949" y="483" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1400/2560.51.1920.1040@0.0.2560.1400" timestamp="1601393645018" />
+    <state x="1038" y="346" key="#com.intellij.ide.util.MemberChooser" timestamp="1601278564500">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1038" y="346" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400/2560.51.1920.1040@0.0.2560.1400" timestamp="1601278564500" />
+    <state x="957" y="423" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1601029105370">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="957" y="423" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.2560.1400/2560.51.1920.1040@0.0.2560.1400" timestamp="1601029105370" />
+    <state x="1148" y="400" key="FileChooserDialogImpl" timestamp="1600947571551">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1148" y="400" key="FileChooserDialogImpl/0.0.2560.1400/2560.51.1920.1040@0.0.2560.1400" timestamp="1600947571551" />
+    <state width="2505" height="379" key="GridCell.Tab.0.bottom" timestamp="1601409869392">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2505" height="379" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.51.1920.1040@0.0.2560.1400" timestamp="1601409869392" />
+    <state width="2505" height="379" key="GridCell.Tab.0.center" timestamp="1601409869392">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2505" height="379" key="GridCell.Tab.0.center/0.0.2560.1400/2560.51.1920.1040@0.0.2560.1400" timestamp="1601409869392" />
+    <state width="2505" height="379" key="GridCell.Tab.0.left" timestamp="1601409869392">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2505" height="379" key="GridCell.Tab.0.left/0.0.2560.1400/2560.51.1920.1040@0.0.2560.1400" timestamp="1601409869392" />
+    <state width="2505" height="379" key="GridCell.Tab.0.right" timestamp="1601409869392">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2505" height="379" key="GridCell.Tab.0.right/0.0.2560.1400/2560.51.1920.1040@0.0.2560.1400" timestamp="1601409869392" />
+    <state width="2505" height="475" key="GridCell.Tab.1.bottom" timestamp="1601405573980">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2505" height="475" key="GridCell.Tab.1.bottom/0.0.2560.1400/2560.51.1920.1040@0.0.2560.1400" timestamp="1601405573980" />
+    <state width="2505" height="475" key="GridCell.Tab.1.center" timestamp="1601405573980">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2505" height="475" key="GridCell.Tab.1.center/0.0.2560.1400/2560.51.1920.1040@0.0.2560.1400" timestamp="1601405573980" />
+    <state width="2505" height="475" key="GridCell.Tab.1.left" timestamp="1601405573980">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2505" height="475" key="GridCell.Tab.1.left/0.0.2560.1400/2560.51.1920.1040@0.0.2560.1400" timestamp="1601405573980" />
+    <state width="2505" height="475" key="GridCell.Tab.1.right" timestamp="1601405573980">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2505" height="475" key="GridCell.Tab.1.right/0.0.2560.1400/2560.51.1920.1040@0.0.2560.1400" timestamp="1601405573980" />
+    <state x="694" y="271" key="Maven.ArtifactSearchDialog" timestamp="1601401819449">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="694" y="271" key="Maven.ArtifactSearchDialog/0.0.2560.1400/2560.51.1920.1040@0.0.2560.1400" timestamp="1601401819449" />
+    <state x="671" y="258" key="SettingsEditor" timestamp="1601274670014">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="671" y="258" key="SettingsEditor/0.0.2560.1400/2560.51.1920.1040@0.0.2560.1400" timestamp="1601274670014" />
+    <state x="1023" y="452" key="com.intellij.database.actions.DdlActions$ModifyObject$1" timestamp="1601280034982">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1023" y="452" key="com.intellij.database.actions.DdlActions$ModifyObject$1/0.0.2560.1400/2560.51.1920.1040@0.0.2560.1400" timestamp="1601280034982" />
+    <state x="835" y="510" width="1176" height="731" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1601279473545">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="835" y="510" width="1176" height="731" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.2560.1400/2560.51.1920.1040@0.0.2560.1400" timestamp="1601279473545" />
+    <state x="1057" y="595" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601393699166">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1057" y="595" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1400/2560.51.1920.1040@0.0.2560.1400" timestamp="1601393699166" />
+    <state x="2560" y="51" width="1254" height="962" key="dock-window-1" timestamp="1601283632712">
+      <screen x="2560" y="51" width="1920" height="1040" />
+    </state>
+    <state x="2560" y="51" width="1254" height="962" key="dock-window-1/0.0.2560.1400/2560.51.1920.1040@0.0.2560.1400" timestamp="1601283632712" />
+    <state x="925" y="368" width="710" height="736" key="find.popup" timestamp="1601408221231">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="925" y="368" width="710" height="736" key="find.popup/0.0.2560.1400/2560.51.1920.1040@0.0.2560.1400" timestamp="1601408221231" />
+    <state x="859" y="308" width="840" height="1034" key="search.everywhere.popup" timestamp="1600950199847">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="859" y="308" width="840" height="1034" key="search.everywhere.popup/0.0.2560.1400/2560.51.1920.1040@0.0.2560.1400" timestamp="1600950199847" />
+  </component>
+</project>

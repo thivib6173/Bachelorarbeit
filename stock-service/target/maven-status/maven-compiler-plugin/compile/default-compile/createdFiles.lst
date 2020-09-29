@@ -1,0 +1,4 @@
+io\microservice\thi\productstock\DAO\ProductStockDAO.class
+io\microservice\thi\productstock\model\ProductStock.class
+io\microservice\thi\productstock\ProductStockApplication.class
+io\microservice\thi\productstock\ProductStockService.class

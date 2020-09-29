@@ -1,0 +1,6 @@
+
+ Index  Count  Time of first Occurrence    Time of last Occurrence     Exception SourceId ProbeId
+------+------+---------------------------+---------------------------+---------------------------
+     0      1 29.09.20, 22:06:04:279 MESZ 29.09.20, 22:06:04:279 MESZ com.ibm.wsspi.injectionengine.InjectionException com.ibm.ws.cdi.impl.weld.injection.WebSphereInjectionServicesImpl 199
+                                                                            - C:\Users\vib61\Documents\Bachelorarbeit\product-service\target\liberty\wlp\usr\servers\defaultServer\logs\ffdc\ffdc_20.09.29_22.06.04.0.log
+------+------+---------------------------+---------------------------+---------------------------

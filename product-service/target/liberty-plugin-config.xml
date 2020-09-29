@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<liberty-plugin-config>
+    <installDirectory>C:\Users\vib61\Documents\Bachelorarbeit\product-service\target\liberty\wlp</installDirectory>
+    <serverDirectory>C:\Users\vib61\Documents\Bachelorarbeit\product-service\target\liberty\wlp\usr\servers\defaultServer</serverDirectory>
+    <userDirectory>C:\Users\vib61\Documents\Bachelorarbeit\product-service\target\liberty\wlp\usr</userDirectory>
+    <serverOutputDirectory>C:\Users\vib61\Documents\Bachelorarbeit\product-service\target\liberty\wlp\usr\servers\defaultServer</serverOutputDirectory>
+    <serverName>defaultServer</serverName>
+    <configDirectory>C:\Users\vib61\Documents\Bachelorarbeit\product-service\src\main\liberty\config</configDirectory>
+    <appsDirectory>dropins</appsDirectory>
+    <looseApplication>true</looseApplication>
+    <stripVersion>false</stripVersion>
+    <installAppPackages>project</installAppPackages>
+    <applicationFilename>product.war.xml</applicationFilename>
+    <assemblyArtifact>
+        <groupId>io.openliberty</groupId>
+        <artifactId>openliberty-kernel</artifactId>
+        <version>20.0.0.10</version>
+        <type>zip</type>
+    </assemblyArtifact>
+    <assemblyArchive>C:\Users\vib61\.m2\repository\io\openliberty\openliberty-kernel\20.0.0.10\openliberty-kernel-20.0.0.10.zip</assemblyArchive>
+    <assemblyInstallDirectory>C:\Users\vib61\Documents\Bachelorarbeit\product-service\target\liberty</assemblyInstallDirectory>
+    <refresh>false</refresh>
+    <installAppsConfigDropins>C:\Users\vib61\Documents\Bachelorarbeit\product-service\target\liberty\wlp\usr\servers\defaultServer\configDropins\defaults\install_apps_configuration_1491924271.xml</installAppsConfigDropins>
+    <projectType>war</projectType>
+    <projectCompileDependency>org.apache.commons:commons-lang3:3.10</projectCompileDependency>
+    <projectCompileDependency>com.fasterxml.jackson.core:jackson-databind:2.11.1</projectCompileDependency>
+    <projectCompileDependency>com.fasterxml.jackson.core:jackson-annotations:2.11.1</projectCompileDependency>
+    <projectCompileDependency>com.fasterxml.jackson.core:jackson-core:2.11.1</projectCompileDependency>
+    <projectCompileDependency>jakarta.activation:jakarta.activation-api:1.2.1</projectCompileDependency>
+</liberty-plugin-config>
